@@ -4,7 +4,7 @@
     "repositoryUrl": "https://github.com/clustershell/clustershell",
     "asvUrl": "asv/"
   },
-  "generatedAt": "2026-08-27T11:51:30.767000+00:00",
+  "generatedAt": "2026-08-27T12:51:56.923000+00:00",
   "machines": [
     {
       "id": "1ba1af82e77d",
@@ -44,6 +44,62 @@
               "lower": 0.016029,
               "upper": 0.016242,
               "startedAt": 1787831473676
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.016311213141307235,
+              "lower": 0.016168,
+              "upper": 0.016459,
+              "startedAt": 1787834983682
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.01644621347077191,
+              "lower": 0.016258,
+              "upper": 0.016503,
+              "startedAt": 1787835022000
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.01655799732543528,
+              "lower": 0.016446,
+              "upper": 0.016685,
+              "startedAt": 1787835060812
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.01627228851430118,
+              "lower": 0.016216,
+              "upper": 0.016366,
+              "startedAt": 1787835099315
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -230,6 +286,62 @@
               "startedAt": 1787831474023
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.047547046560794115,
+              "lower": 0.047303,
+              "upper": 0.047893,
+              "startedAt": 1787834984038
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.04876018641516566,
+              "lower": 0.048575,
+              "upper": 0.048893,
+              "startedAt": 1787835022351
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.04906863742507994,
+              "lower": 0.048975,
+              "upper": 0.049401,
+              "startedAt": 1787835061160
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.04809266491793096,
+              "lower": 0.047968,
+              "upper": 0.04837,
+              "startedAt": 1787835099693
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -412,6 +524,62 @@
               "lower": 0.0019481,
               "upper": 0.0020277,
               "startedAt": 1787831474894
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.00198776686253647,
+              "lower": 0.0019451,
+              "upper": 0.0020192,
+              "startedAt": 1787834984913
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.002173731382936239,
+              "lower": 0.0021303,
+              "upper": 0.0022278,
+              "startedAt": 1787835023237
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.002161660883575678,
+              "lower": 0.0021479,
+              "upper": 0.0021723,
+              "startedAt": 1787835062042
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.002226589573547244,
+              "lower": 0.0022098,
+              "upper": 0.0022478,
+              "startedAt": 1787835100579
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -598,6 +766,62 @@
               "startedAt": 1787831475157
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.00678913074079901,
+              "lower": 0.0067573,
+              "upper": 0.0068181,
+              "startedAt": 1787834985180
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.007018266245722771,
+              "lower": 0.006963,
+              "upper": 0.0070844,
+              "startedAt": 1787835023485
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.007063140743412077,
+              "lower": 0.0070401,
+              "upper": 0.0071687,
+              "startedAt": 1787835062295
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.007367924554273486,
+              "lower": 0.0073314,
+              "upper": 0.0073967,
+              "startedAt": 1787835100830
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -780,6 +1004,62 @@
               "lower": 1.4266e-05,
               "upper": 1.4587e-05,
               "startedAt": 1787831475474
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 1.4362849641317469e-05,
+              "lower": 1.4113e-05,
+              "upper": 1.4664e-05,
+              "startedAt": 1787834985496
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 1.5191766192339745e-05,
+              "lower": 1.5112e-05,
+              "upper": 1.5289e-05,
+              "startedAt": 1787835023811
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 1.538334753152407e-05,
+              "lower": 1.5304e-05,
+              "upper": 1.5635e-05,
+              "startedAt": 1787835062622
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 1.5737610390310563e-05,
+              "lower": 1.5616e-05,
+              "upper": 1.6031e-05,
+              "startedAt": 1787835101166
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -966,6 +1246,62 @@
               "startedAt": 1787831475717
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 6.7236426107475325e-06,
+              "lower": 6.5956e-06,
+              "upper": 6.9136e-06,
+              "startedAt": 1787834985738
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 7.619837797479544e-06,
+              "lower": 7.4919e-06,
+              "upper": 7.6867e-06,
+              "startedAt": 1787835024054
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 7.690331891470652e-06,
+              "lower": 7.6183e-06,
+              "upper": 8.2177e-06,
+              "startedAt": 1787835062860
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 7.763737812638283e-06,
+              "lower": 7.6282e-06,
+              "upper": 7.9786e-06,
+              "startedAt": 1787835101409
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -1148,6 +1484,62 @@
               "lower": 0.0018735,
               "upper": 0.0019152,
               "startedAt": 1787831477272
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.001904845276537041,
+              "lower": 0.0018874,
+              "upper": 0.0019718,
+              "startedAt": 1787834987346
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.001996865340818961,
+              "lower": 0.0019878,
+              "upper": 0.0020117,
+              "startedAt": 1787835025675
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.0020257415249943732,
+              "lower": 0.0019825,
+              "upper": 0.0020426,
+              "startedAt": 1787835064462
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.002027836348861456,
+              "lower": 0.0020074,
+              "upper": 0.002054,
+              "startedAt": 1787835103010
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -1334,6 +1726,62 @@
               "startedAt": 1787831477553
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 9.774471519984931e-05,
+              "lower": 9.7022e-05,
+              "upper": 9.9388e-05,
+              "startedAt": 1787834987661
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.00010382077619057112,
+              "lower": 0.00010304,
+              "upper": 0.0001044,
+              "startedAt": 1787835025972
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.00010663895634934305,
+              "lower": 0.00010633,
+              "upper": 0.00010765,
+              "startedAt": 1787835064747
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.00010528182853401327,
+              "lower": 0.00010435,
+              "upper": 0.00010703,
+              "startedAt": 1787835103293
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -1516,6 +1964,62 @@
               "lower": 0.13523,
               "upper": 0.13915,
               "startedAt": 1787831478695
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.13904748554341495,
+              "lower": 0.13863,
+              "upper": 0.13974,
+              "startedAt": 1787834988792
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.1532355430535972,
+              "lower": 0.15153,
+              "upper": 0.15436,
+              "startedAt": 1787835027124
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.1534522450529039,
+              "lower": 0.15216,
+              "upper": 0.15456,
+              "startedAt": 1787835065892
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.15780544537119567,
+              "lower": 0.15754,
+              "upper": 0.15814,
+              "startedAt": 1787835104440
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -1702,6 +2206,62 @@
               "startedAt": 1787831479664
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.3248059425968677,
+              "lower": 0.31899,
+              "upper": 0.32783,
+              "startedAt": 1787834989758
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.35066292551346123,
+              "lower": 0.34819,
+              "upper": 0.35744,
+              "startedAt": 1787835028193
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.353720223531127,
+              "lower": 0.34842,
+              "upper": 0.36022,
+              "startedAt": 1787835066944
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.3557637264020741,
+              "lower": 0.35423,
+              "upper": 0.35802,
+              "startedAt": 1787835105515
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -1884,6 +2444,62 @@
               "lower": 0.0010607,
               "upper": 0.0010708,
               "startedAt": 1787831475998
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.0010948136448860168,
+              "lower": 0.0010657,
+              "upper": 0.001144,
+              "startedAt": 1787834986028
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.0010951341362670066,
+              "lower": 0.0010893,
+              "upper": 0.0011004,
+              "startedAt": 1787835024360
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.0011205534036788675,
+              "lower": 0.0011078,
+              "upper": 0.0011379,
+              "startedAt": 1787835063157
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.0011240368864188592,
+              "lower": 0.0011119,
+              "upper": 0.0011352,
+              "startedAt": 1787835101697
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -2070,6 +2686,62 @@
               "startedAt": 1787831476279
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.036437532398849726,
+              "lower": 0.035602,
+              "upper": 0.037266,
+              "startedAt": 1787834986330
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.039260815596207976,
+              "lower": 0.038413,
+              "upper": 0.039342,
+              "startedAt": 1787835024647
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.03897096845321357,
+              "lower": 0.038453,
+              "upper": 0.039476,
+              "startedAt": 1787835063438
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.03946410305798054,
+              "lower": 0.038752,
+              "upper": 0.040154,
+              "startedAt": 1787835101982
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -2252,6 +2924,62 @@
               "lower": 0.012331,
               "upper": 0.012627,
               "startedAt": 1787831481761
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.01285720570012927,
+              "lower": 0.012402,
+              "upper": 0.013121,
+              "startedAt": 1787834991865
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.012596298474818468,
+              "lower": 0.012391,
+              "upper": 0.012727,
+              "startedAt": 1787835030415
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.01287923101335764,
+              "lower": 0.012618,
+              "upper": 0.013082,
+              "startedAt": 1787835069161
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.012895109131932259,
+              "lower": 0.012849,
+              "upper": 0.01296,
+              "startedAt": 1787835107782
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -2438,6 +3166,62 @@
               "startedAt": 1787831482056
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 5.4429144845070213e-05,
+              "lower": 5.3165e-05,
+              "upper": 5.5701e-05,
+              "startedAt": 1787834992164
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 5.641279360906757e-05,
+              "lower": 5.5983e-05,
+              "upper": 5.6943e-05,
+              "startedAt": 1787835030712
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 5.7376877521164715e-05,
+              "lower": 5.7131e-05,
+              "upper": 5.8437e-05,
+              "startedAt": 1787835069458
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 5.7430088667100975e-05,
+              "lower": 5.7028e-05,
+              "upper": 5.841e-05,
+              "startedAt": 1787835108086
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -2620,6 +3404,62 @@
               "lower": 0.0080079,
               "upper": 0.0082195,
               "startedAt": 1787831482333
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.007328588399104774,
+              "lower": 0.0063589,
+              "upper": 0.0083585,
+              "startedAt": 1787834992449
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.008407496148720384,
+              "lower": 0.0083623,
+              "upper": 0.0084328,
+              "startedAt": 1787835030998
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.008357407292351127,
+              "lower": 0.0081876,
+              "upper": 0.0085942,
+              "startedAt": 1787835069740
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.008409245987422764,
+              "lower": 0.0082078,
+              "upper": 0.0085048,
+              "startedAt": 1787835108375
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -2806,6 +3646,62 @@
               "startedAt": 1787831482650
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 3.6934324141059604e-05,
+              "lower": 3.5988e-05,
+              "upper": 3.7305e-05,
+              "startedAt": 1787834992762
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 3.836451276323087e-05,
+              "lower": 3.7892e-05,
+              "upper": 3.8748e-05,
+              "startedAt": 1787835031318
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 3.864471499627534e-05,
+              "lower": 3.8156e-05,
+              "upper": 3.9016e-05,
+              "startedAt": 1787835070050
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 3.952594579459401e-05,
+              "lower": 3.8137e-05,
+              "upper": 3.9968e-05,
+              "startedAt": 1787835108687
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -2988,6 +3884,62 @@
               "lower": 0.0036158,
               "upper": 0.0036765,
               "startedAt": 1787831476695
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.003654504582906763,
+              "lower": 0.0035638,
+              "upper": 0.003669,
+              "startedAt": 1787834986766
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.0038129757158458233,
+              "lower": 0.0037819,
+              "upper": 0.0038425,
+              "startedAt": 1787835025086
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.0039653809896359835,
+              "lower": 0.0038864,
+              "upper": 0.0040057,
+              "startedAt": 1787835063874
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.0038950062201668816,
+              "lower": 0.0038339,
+              "upper": 0.0039503,
+              "startedAt": 1787835102418
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -3174,6 +4126,62 @@
               "startedAt": 1787831476984
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.003991850962241491,
+              "lower": 0.003979,
+              "upper": 0.0040116,
+              "startedAt": 1787834987056
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.004261524882167578,
+              "lower": 0.0042413,
+              "upper": 0.0043547,
+              "startedAt": 1787835025374
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.004395259156202276,
+              "lower": 0.0043526,
+              "upper": 0.0044237,
+              "startedAt": 1787835064162
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.004432888003066182,
+              "lower": 0.0043649,
+              "upper": 0.0045419,
+              "startedAt": 1787835102703
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -3356,6 +4364,62 @@
               "lower": 0.0026854,
               "upper": 0.0029312,
               "startedAt": 1787831477837
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.002874383411835879,
+              "lower": 0.0028045,
+              "upper": 0.002911,
+              "startedAt": 1787834987943
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.0030580154852941632,
+              "lower": 0.0030533,
+              "upper": 0.0030646,
+              "startedAt": 1787835026247
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.00306445435853675,
+              "lower": 0.0030383,
+              "upper": 0.0030869,
+              "startedAt": 1787835065033
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.002951014379505068,
+              "lower": 0.0028149,
+              "upper": 0.003097,
+              "startedAt": 1787835103570
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -3542,6 +4606,62 @@
               "startedAt": 1787831478122
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.0003280278487021432,
+              "lower": 0.00032718,
+              "upper": 0.00033202,
+              "startedAt": 1787834988225
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.00034823986546446883,
+              "lower": 0.00034388,
+              "upper": 0.00035208,
+              "startedAt": 1787835026540
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.00034784094896167517,
+              "lower": 0.0003428,
+              "upper": 0.00035254,
+              "startedAt": 1787835065326
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.0003535474340120951,
+              "lower": 0.00035023,
+              "upper": 0.00036445,
+              "startedAt": 1787835103867
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -3724,6 +4844,62 @@
               "lower": 1.0049e-05,
               "upper": 1.0435e-05,
               "startedAt": 1787831478404
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 1.0402069524402016e-05,
+              "lower": 1.0289e-05,
+              "upper": 1.0483e-05,
+              "startedAt": 1787834988506
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 1.1179843295961928e-05,
+              "lower": 1.1024e-05,
+              "upper": 1.1666e-05,
+              "startedAt": 1787835026827
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 1.1407078655545477e-05,
+              "lower": 1.1227e-05,
+              "upper": 1.1662e-05,
+              "startedAt": 1787835065611
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 1.1588222645386531e-05,
+              "lower": 1.143e-05,
+              "upper": 1.1804e-05,
+              "startedAt": 1787835104152
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -3910,6 +5086,62 @@
               "startedAt": 1787831482928
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 1.6448844320140223e-07,
+              "lower": 1.583e-07,
+              "upper": 1.6971e-07,
+              "startedAt": 1787834993046
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 1.7101406438701297e-07,
+              "lower": 1.6916e-07,
+              "upper": 1.7343e-07,
+              "startedAt": 1787835031602
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 1.6986914879251537e-07,
+              "lower": 1.6833e-07,
+              "upper": 1.7188e-07,
+              "startedAt": 1787835070328
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 1.7150041695222022e-07,
+              "lower": 1.6923e-07,
+              "upper": 1.7345e-07,
+              "startedAt": 1787835108972
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -4092,6 +5324,62 @@
               "lower": 2.0151e-07,
               "upper": 2.1081e-07,
               "startedAt": 1787831483290
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 2.1703488602979446e-07,
+              "lower": 2.0575e-07,
+              "upper": 2.1985e-07,
+              "startedAt": 1787834993431
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 2.1573618068406136e-07,
+              "lower": 2.1498e-07,
+              "upper": 2.1754e-07,
+              "startedAt": 1787835031963
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 2.197612508040962e-07,
+              "lower": 2.1737e-07,
+              "upper": 2.2139e-07,
+              "startedAt": 1787835070684
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 2.203032895568695e-07,
+              "lower": 2.1843e-07,
+              "upper": 2.2227e-07,
+              "startedAt": 1787835109335
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -4278,6 +5566,62 @@
               "startedAt": 1787831483651
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.000669831148115918,
+              "lower": 0.00066429,
+              "upper": 0.00067787,
+              "startedAt": 1787834993798
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.0007171078895529112,
+              "lower": 0.00070017,
+              "upper": 0.00074488,
+              "startedAt": 1787835032320
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.000737701027121927,
+              "lower": 0.00072778,
+              "upper": 0.00074069,
+              "startedAt": 1787835071041
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.0007227389308224831,
+              "lower": 0.00072065,
+              "upper": 0.0007256,
+              "startedAt": 1787835109691
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -4460,6 +5804,62 @@
               "lower": 0.0018763,
               "upper": 0.001926,
               "startedAt": 1787831487462
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.0018864674881721537,
+              "lower": 0.0018683,
+              "upper": 0.0019445,
+              "startedAt": 1787834997685
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.0019246155085663,
+              "lower": 0.0019166,
+              "upper": 0.0019564,
+              "startedAt": 1787835036153
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.0019933131989091635,
+              "lower": 0.0019665,
+              "upper": 0.0020365,
+              "startedAt": 1787835074844
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.0019847742514684796,
+              "lower": 0.0019742,
+              "upper": 0.0020032,
+              "startedAt": 1787835113533
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -4646,6 +6046,62 @@
               "startedAt": 1787831488876
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.00029368754966478596,
+              "lower": 0.00029234,
+              "upper": 0.00029589,
+              "startedAt": 1787834999130
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.00029753966696767346,
+              "lower": 0.00029593,
+              "upper": 0.00030014,
+              "startedAt": 1787835037595
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.0003038074688187667,
+              "lower": 0.00029921,
+              "upper": 0.00030623,
+              "startedAt": 1787835076288
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.00033298002866407234,
+              "lower": 0.00029724,
+              "upper": 0.0003576,
+              "startedAt": 1787835114979
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -4828,6 +6284,62 @@
               "lower": 0.021088,
               "upper": 0.02169,
               "startedAt": 1787831489230
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.021557176718488336,
+              "lower": 0.021378,
+              "upper": 0.021824,
+              "startedAt": 1787834999480
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.022139113629236817,
+              "lower": 0.02209,
+              "upper": 0.022209,
+              "startedAt": 1787835037949
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.022481136256828904,
+              "lower": 0.022122,
+              "upper": 0.022825,
+              "startedAt": 1787835076643
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.02228492754511535,
+              "lower": 0.022075,
+              "upper": 0.022314,
+              "startedAt": 1787835115345
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -5014,6 +6526,62 @@
               "startedAt": 1787831484023
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.0010781172895804048,
+              "lower": 0.001055,
+              "upper": 0.0010932,
+              "startedAt": 1787834994168
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.00108698895201087,
+              "lower": 0.0010759,
+              "upper": 0.0010948,
+              "startedAt": 1787835032679
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.001121198246255517,
+              "lower": 0.0011177,
+              "upper": 0.0011237,
+              "startedAt": 1787835071405
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.001110339304432273,
+              "lower": 0.0010951,
+              "upper": 0.0011201,
+              "startedAt": 1787835110050
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -5196,6 +6764,62 @@
               "lower": 0.00066627,
               "upper": 0.00067405,
               "startedAt": 1787831487817
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.0006797005917178467,
+              "lower": 0.00066767,
+              "upper": 0.00069601,
+              "startedAt": 1787834998047
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.0006697934586554766,
+              "lower": 0.00066836,
+              "upper": 0.0006774,
+              "startedAt": 1787835036514
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.0006706234125886112,
+              "lower": 0.00066667,
+              "upper": 0.00067408,
+              "startedAt": 1787835075206
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.000677799821520845,
+              "lower": 0.0006738,
+              "upper": 0.00068059,
+              "startedAt": 1787835113893
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -5382,6 +7006,62 @@
               "startedAt": 1787831484375
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.0014847296489668743,
+              "lower": 0.0014574,
+              "upper": 0.0015003,
+              "startedAt": 1787834994528
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.001489578846043774,
+              "lower": 0.0014823,
+              "upper": 0.0015036,
+              "startedAt": 1787835033032
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.001526556642992156,
+              "lower": 0.0015193,
+              "upper": 0.0015399,
+              "startedAt": 1787835071760
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.0015216219305459943,
+              "lower": 0.0014954,
+              "upper": 0.0015634,
+              "startedAt": 1787835110411
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -5564,6 +7244,62 @@
               "lower": 4.6176e-08,
               "upper": 4.8412e-08,
               "startedAt": 1787831484721
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 4.816677464759892e-08,
+              "lower": 4.5451e-08,
+              "upper": 5.0338e-08,
+              "startedAt": 1787834994882
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 4.8863232462075505e-08,
+              "lower": 4.8781e-08,
+              "upper": 4.9052e-08,
+              "startedAt": 1787835033384
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 5.084451253873281e-08,
+              "lower": 5.0035e-08,
+              "upper": 5.1686e-08,
+              "startedAt": 1787835072118
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 5.034111589820138e-08,
+              "lower": 5.0157e-08,
+              "upper": 5.2512e-08,
+              "startedAt": 1787835110765
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -5750,6 +7486,62 @@
               "startedAt": 1787831489638
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.006995684001594782,
+              "lower": 0.0069174,
+              "upper": 0.0070529,
+              "startedAt": 1787834999888
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.007136829779483378,
+              "lower": 0.0071192,
+              "upper": 0.0071745,
+              "startedAt": 1787835038376
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.007297862553969026,
+              "lower": 0.0072747,
+              "upper": 0.0073393,
+              "startedAt": 1787835077056
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.007265620050020516,
+              "lower": 0.0072187,
+              "upper": 0.00741,
+              "startedAt": 1787835115763
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -5932,6 +7724,62 @@
               "lower": 0.0027973,
               "upper": 0.0029024,
               "startedAt": 1787831490005
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.0028901291079819202,
+              "lower": 0.0028353,
+              "upper": 0.0029186,
+              "startedAt": 1787835000258
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.002901751024182886,
+              "lower": 0.0028772,
+              "upper": 0.0029385,
+              "startedAt": 1787835038743
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.0029942996334284544,
+              "lower": 0.0029695,
+              "upper": 0.0030093,
+              "startedAt": 1787835077428
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.0030134599655866623,
+              "lower": 0.0029907,
+              "upper": 0.0030256,
+              "startedAt": 1787835116138
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -6118,6 +7966,62 @@
               "startedAt": 1787831490366
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.018598039401695132,
+              "lower": 0.018162,
+              "upper": 0.018855,
+              "startedAt": 1787835000616
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.018954619066789746,
+              "lower": 0.018845,
+              "upper": 0.018975,
+              "startedAt": 1787835039101
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.019067859277129173,
+              "lower": 0.018972,
+              "upper": 0.019611,
+              "startedAt": 1787835077780
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.019452680367976427,
+              "lower": 0.01913,
+              "upper": 0.0197,
+              "startedAt": 1787835116508
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -6300,6 +8204,62 @@
               "lower": 0.0034014,
               "upper": 0.0035384,
               "startedAt": 1787831490767
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.0034396379875640073,
+              "lower": 0.0034138,
+              "upper": 0.003471,
+              "startedAt": 1787835001017
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.0035569174991299706,
+              "lower": 0.003534,
+              "upper": 0.0035942,
+              "startedAt": 1787835039507
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.0035846748699744544,
+              "lower": 0.0035679,
+              "upper": 0.0036081,
+              "startedAt": 1787835078190
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.0037078111587713165,
+              "lower": 0.003546,
+              "upper": 0.003727,
+              "startedAt": 1787835116923
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -6486,6 +8446,62 @@
               "startedAt": 1787831485084
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.0014091679768171161,
+              "lower": 0.0013831,
+              "upper": 0.0014496,
+              "startedAt": 1787834995250
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.0014486674044746906,
+              "lower": 0.00143,
+              "upper": 0.001482,
+              "startedAt": 1787835033745
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.001437567440526826,
+              "lower": 0.001434,
+              "upper": 0.0014596,
+              "startedAt": 1787835072469
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.0014608973287977278,
+              "lower": 0.0014316,
+              "upper": 0.0014775,
+              "startedAt": 1787835111132
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -6668,6 +8684,62 @@
               "lower": 0.0032994,
               "upper": 0.0034568,
               "startedAt": 1787831485445
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.003518353041727096,
+              "lower": 0.0033895,
+              "upper": 0.003552,
+              "startedAt": 1787834995619
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.0035292378937204676,
+              "lower": 0.0035191,
+              "upper": 0.0035421,
+              "startedAt": 1787835034117
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.0036122743816425404,
+              "lower": 0.0035737,
+              "upper": 0.0036352,
+              "startedAt": 1787835072830
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.0036197345082958536,
+              "lower": 0.0035995,
+              "upper": 0.0036629,
+              "startedAt": 1787835111504
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -6854,6 +8926,62 @@
               "startedAt": 1787831485819
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.02714443299919367,
+              "lower": 0.025237,
+              "upper": 0.027283,
+              "startedAt": 1787834996003
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.026769286021590233,
+              "lower": 0.026734,
+              "upper": 0.026941,
+              "startedAt": 1787835034479
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.02791314199566841,
+              "lower": 0.027179,
+              "upper": 0.028543,
+              "startedAt": 1787835073187
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.02724773739464581,
+              "lower": 0.027146,
+              "upper": 0.027646,
+              "startedAt": 1787835111862
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -7036,6 +9164,62 @@
               "lower": 0.0039833,
               "upper": 0.0040783,
               "startedAt": 1787831486254
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.004269214424615106,
+              "lower": 0.0040236,
+              "upper": 0.0043602,
+              "startedAt": 1787834996459
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.004312816852082809,
+              "lower": 0.0042837,
+              "upper": 0.004381,
+              "startedAt": 1787835034931
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.004371489475791654,
+              "lower": 0.0043163,
+              "upper": 0.0044267,
+              "startedAt": 1787835073640
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.004376881678278248,
+              "lower": 0.0043157,
+              "upper": 0.0044358,
+              "startedAt": 1787835112321
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -7222,6 +9406,62 @@
               "startedAt": 1787831486618
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.0043481596900771064,
+              "lower": 0.0042931,
+              "upper": 0.0043699,
+              "startedAt": 1787834996832
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.004155572581415376,
+              "lower": 0.0040847,
+              "upper": 0.0042023,
+              "startedAt": 1787835035311
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.004374894080683589,
+              "lower": 0.0043279,
+              "upper": 0.0043933,
+              "startedAt": 1787835074010
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.0045265642305215206,
+              "lower": 0.0041416,
+              "upper": 0.0045837,
+              "startedAt": 1787835112695
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -7404,6 +9644,62 @@
               "lower": 0.030604,
               "upper": 0.031854,
               "startedAt": 1787831486983
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.031470892019569874,
+              "lower": 0.030795,
+              "upper": 0.031749,
+              "startedAt": 1787834997207
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.0325717031955719,
+              "lower": 0.032479,
+              "upper": 0.032873,
+              "startedAt": 1787835035669
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.033960303058847785,
+              "lower": 0.032831,
+              "upper": 0.034985,
+              "startedAt": 1787835074383
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.032938532531261444,
+              "lower": 0.03274,
+              "upper": 0.03299,
+              "startedAt": 1787835113067
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
@@ -7590,6 +9886,62 @@
               "startedAt": 1787831488165
             },
             {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.0023430532310158014,
+              "lower": 0.0023052,
+              "upper": 0.0023739,
+              "startedAt": 1787834998396
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.002402077987790108,
+              "lower": 0.0023872,
+              "upper": 0.0024449,
+              "startedAt": 1787835036859
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.0024169040843844414,
+              "lower": 0.0024009,
+              "upper": 0.0024404,
+              "startedAt": 1787835075562
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.0023971555288881067,
+              "lower": 0.0023804,
+              "upper": 0.0024165,
+              "startedAt": 1787835114250
+            },
+            {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
               "shortHash": "5c3dccca",
               "date": 1737768216000,
@@ -7772,6 +10124,62 @@
               "lower": 0.0023723,
               "upper": 0.0024055,
               "startedAt": 1787831488522
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.0026265420485287903,
+              "lower": 0.0023554,
+              "upper": 0.0028781,
+              "startedAt": 1787834998756
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.002663329103961587,
+              "lower": 0.0024548,
+              "upper": 0.0028858,
+              "startedAt": 1787835037221
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.0024356849025934935,
+              "lower": 0.002418,
+              "upper": 0.0024638,
+              "startedAt": 1787835075928
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.0024518145713955165,
+              "lower": 0.0024327,
+              "upper": 0.0024601,
+              "startedAt": 1787835114617
             },
             {
               "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
