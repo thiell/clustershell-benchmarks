@@ -4,7 +4,7 @@
     "repositoryUrl": "https://github.com/clustershell/clustershell",
     "asvUrl": "asv/"
   },
-  "generatedAt": "2026-08-27T12:51:56.923000+00:00",
+  "generatedAt": "2026-08-31T03:40:56.761000+00:00",
   "machines": [
     {
       "id": "1ba1af82e77d",
@@ -17,6 +17,534 @@
     }
   ],
   "benchmarks": [
+    {
+      "id": "bench_engine.Engine.time_spawn",
+      "group": "Engine",
+      "label": "Engine.time_spawn",
+      "operation": "time_spawn",
+      "unit": "seconds",
+      "parameterNames": [],
+      "series": [
+        {
+          "id": "69166644ef65a907",
+          "machineId": "1ba1af82e77d",
+          "parameters": {},
+          "parameterLabel": "default",
+          "points": [
+            {
+              "hash": "7ab742e7a493aa5245b58085dc34d7d07015a391",
+              "shortHash": "7ab742e7",
+              "date": 1508782893000,
+              "subject": "Release 1.8 (#360)",
+              "tags": [
+                "v1.8"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/7ab742e7a493aa5245b58085dc34d7d07015a391",
+              "value": 1.4474605538416654,
+              "lower": 1.4398,
+              "upper": 1.465,
+              "startedAt": 1788147080588
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 1.477976656286046,
+              "lower": 1.4609,
+              "upper": 1.5058,
+              "startedAt": 1788147036529
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 1.4910488079767674,
+              "lower": 1.4737,
+              "upper": 1.5202,
+              "startedAt": 1788147260499
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 1.447720895987004,
+              "lower": 1.4321,
+              "upper": 1.4675,
+              "startedAt": 1788146850559
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 1.5142464553937316,
+              "lower": 1.4932,
+              "upper": 1.5177,
+              "startedAt": 1788147441591
+            },
+            {
+              "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
+              "shortHash": "5c3dccca",
+              "date": 1737768216000,
+              "subject": "Bump pillow from 5.4.1 to 10.3.0 in /doc/sphinx (#576)",
+              "tags": [
+                "v1.9.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/5c3dccca6313f964551a7343f9e67c4e4816fb40",
+              "value": 1.4770650898572057,
+              "lower": 1.4639,
+              "upper": 1.4839,
+              "startedAt": 1788146988104
+            },
+            {
+              "hash": "7bcb5423146d47510d9d75fe240b8c6da7460cdb",
+              "shortHash": "7bcb5423",
+              "date": 1783191600000,
+              "subject": "Release 1.10 (#642)",
+              "tags": [
+                "v1.10"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/7bcb5423146d47510d9d75fe240b8c6da7460cdb",
+              "value": 1.4742642764467746,
+              "lower": 1.4562,
+              "upper": 1.5082,
+              "startedAt": 1788147125436
+            },
+            {
+              "hash": "7d440c7cce5ca358ff4a59729bc7b26e3e857d3e",
+              "shortHash": "7d440c7c",
+              "date": 1784236235000,
+              "subject": "Release 1.10.1 (#676)",
+              "tags": [
+                "v1.10.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/7d440c7cce5ca358ff4a59729bc7b26e3e857d3e",
+              "value": 1.460446955403313,
+              "lower": 1.4408,
+              "upper": 1.4788,
+              "startedAt": 1788147170637
+            },
+            {
+              "hash": "1f409ea86c5d81c449e84cca67e289891b080a6f",
+              "shortHash": "1f409ea8",
+              "date": 1783622570000,
+              "subject": "RangeSet: compute padding without sorting",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/1f409ea86c5d81c449e84cca67e289891b080a6f",
+              "value": 1.457131567876786,
+              "lower": 1.4413,
+              "upper": 1.4698,
+              "startedAt": 1788146806428
+            },
+            {
+              "hash": "c2dd2ae844ecf3e0fe0fd384bcb966376ad110d5",
+              "shortHash": "c2dd2ae8",
+              "date": 1784418571000,
+              "subject": "tests: cover tree copy dest trailing-slash semantics (#549)",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/c2dd2ae844ecf3e0fe0fd384bcb966376ad110d5",
+              "value": 1.4825910879299045,
+              "lower": 1.4642,
+              "upper": 1.4971,
+              "startedAt": 1788147396732
+            },
+            {
+              "hash": "94a06fc4270633d13f5ff99412aae9b0d299c4f2",
+              "shortHash": "94a06fc4",
+              "date": 1783562325000,
+              "subject": "RangeSetND: speed up multivariate folding",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/94a06fc4270633d13f5ff99412aae9b0d299c4f2",
+              "value": 1.4910728360991925,
+              "lower": 1.4751,
+              "upper": 1.514,
+              "startedAt": 1788147306184
+            },
+            {
+              "hash": "8782d2cdd8041a29fc8f95bbf1fb36dcab39e27d",
+              "shortHash": "8782d2cd",
+              "date": 1784389701000,
+              "subject": "Topology: add YAML topology file support (#374)",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/8782d2cdd8041a29fc8f95bbf1fb36dcab39e27d",
+              "value": 1.476627968950197,
+              "lower": 1.4632,
+              "upper": 1.4872,
+              "startedAt": 1788147215746
+            },
+            {
+              "hash": "19389440ef3920c72de0d9952e15a9aeb21ad77a",
+              "shortHash": "19389440",
+              "date": 1784399629000,
+              "subject": "doc: document YAML topology files and gateway priorities",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/19389440ef3920c72de0d9952e15a9aeb21ad77a",
+              "value": 1.4331450616009533,
+              "lower": 1.4144,
+              "upper": 1.4414,
+              "startedAt": 1788146761741
+            },
+            {
+              "hash": "b2c9c5075a64735c1592b398e6824e180d991c34",
+              "shortHash": "b2c9c507",
+              "date": 1785466776000,
+              "subject": "Task: reset quit flag when a task is resumed",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/b2c9c5075a64735c1592b398e6824e180d991c34",
+              "value": 1.47245655185543,
+              "lower": 1.4616,
+              "upper": 1.4898,
+              "startedAt": 1788147351572
+            },
+            {
+              "hash": "3da8f155630018b8ba8dffe45a3e53a878d778eb",
+              "shortHash": "3da8f155",
+              "date": 1785414626000,
+              "subject": "Gateway: log to stderr when the log file cannot be opened",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/3da8f155630018b8ba8dffe45a3e53a878d778eb",
+              "value": 1.4597875743638724,
+              "lower": 1.4387,
+              "upper": 1.4857,
+              "startedAt": 1788146943030
+            },
+            {
+              "hash": "3c420a237339ae2fb8034734ddc9a0ee48385ae2",
+              "shortHash": "3c420a23",
+              "date": 1785798746000,
+              "subject": "EngineClient: fix data loss on CR-separated output",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/3c420a237339ae2fb8034734ddc9a0ee48385ae2",
+              "value": 1.4364139763638377,
+              "lower": 1.4085,
+              "upper": 1.4558,
+              "startedAt": 1788146898863
+            },
+            {
+              "hash": "72336383ce30f54d34e8cb101e81db8fc6ea24de",
+              "shortHash": "72336383",
+              "date": 1785467192000,
+              "subject": "RangeSetND: fix exponential splitting in difference_update()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
+              "value": 1.402836409630254,
+              "lower": 1.396,
+              "upper": 1.4143,
+              "startedAt": 1788146672389
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 1.4609638194087893,
+              "lower": 1.4484,
+              "upper": 1.4839,
+              "startedAt": 1788147519336
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 1.4812896545045078,
+              "lower": 1.4572,
+              "upper": 1.5144,
+              "startedAt": 1788146708690
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bench_engine.Engine.time_stdin_broadcast",
+      "group": "Engine",
+      "label": "Engine.time_stdin_broadcast",
+      "operation": "time_stdin_broadcast",
+      "unit": "seconds",
+      "parameterNames": [],
+      "series": [
+        {
+          "id": "ebc232d006beedc8",
+          "machineId": "1ba1af82e77d",
+          "parameters": {},
+          "parameterLabel": "default",
+          "points": [
+            {
+              "hash": "7ab742e7a493aa5245b58085dc34d7d07015a391",
+              "shortHash": "7ab742e7",
+              "date": 1508782893000,
+              "subject": "Release 1.8 (#360)",
+              "tags": [
+                "v1.8"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/7ab742e7a493aa5245b58085dc34d7d07015a391",
+              "value": 0.20196031988598406,
+              "lower": 0.19909,
+              "upper": 0.20358,
+              "startedAt": 1788147089345
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.19951144652441144,
+              "lower": 0.19622,
+              "upper": 0.20226,
+              "startedAt": 1788147045387
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.1987653230316937,
+              "lower": 0.19816,
+              "upper": 0.20082,
+              "startedAt": 1788147269696
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.20002973987720907,
+              "lower": 0.19584,
+              "upper": 0.20399,
+              "startedAt": 1788146859369
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.19912660913541913,
+              "lower": 0.19658,
+              "upper": 0.20206,
+              "startedAt": 1788147450734
+            },
+            {
+              "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
+              "shortHash": "5c3dccca",
+              "date": 1737768216000,
+              "subject": "Bump pillow from 5.4.1 to 10.3.0 in /doc/sphinx (#576)",
+              "tags": [
+                "v1.9.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/5c3dccca6313f964551a7343f9e67c4e4816fb40",
+              "value": 0.20034380722790956,
+              "lower": 0.19506,
+              "upper": 0.2024,
+              "startedAt": 1788146997070
+            },
+            {
+              "hash": "7bcb5423146d47510d9d75fe240b8c6da7460cdb",
+              "shortHash": "7bcb5423",
+              "date": 1783191600000,
+              "subject": "Release 1.10 (#642)",
+              "tags": [
+                "v1.10"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/7bcb5423146d47510d9d75fe240b8c6da7460cdb",
+              "value": 0.19620632892474532,
+              "lower": 0.19211,
+              "upper": 0.20247,
+              "startedAt": 1788147134511
+            },
+            {
+              "hash": "7d440c7cce5ca358ff4a59729bc7b26e3e857d3e",
+              "shortHash": "7d440c7c",
+              "date": 1784236235000,
+              "subject": "Release 1.10.1 (#676)",
+              "tags": [
+                "v1.10.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/7d440c7cce5ca358ff4a59729bc7b26e3e857d3e",
+              "value": 0.19910793006420135,
+              "lower": 0.19495,
+              "upper": 0.20444,
+              "startedAt": 1788147179423
+            },
+            {
+              "hash": "1f409ea86c5d81c449e84cca67e289891b080a6f",
+              "shortHash": "1f409ea8",
+              "date": 1783622570000,
+              "subject": "RangeSet: compute padding without sorting",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/1f409ea86c5d81c449e84cca67e289891b080a6f",
+              "value": 0.20197000447660685,
+              "lower": 0.19807,
+              "upper": 0.20408,
+              "startedAt": 1788146815233
+            },
+            {
+              "hash": "c2dd2ae844ecf3e0fe0fd384bcb966376ad110d5",
+              "shortHash": "c2dd2ae8",
+              "date": 1784418571000,
+              "subject": "tests: cover tree copy dest trailing-slash semantics (#549)",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/c2dd2ae844ecf3e0fe0fd384bcb966376ad110d5",
+              "value": 0.20370703586377203,
+              "lower": 0.20253,
+              "upper": 0.20449,
+              "startedAt": 1788147405744
+            },
+            {
+              "hash": "94a06fc4270633d13f5ff99412aae9b0d299c4f2",
+              "shortHash": "94a06fc4",
+              "date": 1783562325000,
+              "subject": "RangeSetND: speed up multivariate folding",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/94a06fc4270633d13f5ff99412aae9b0d299c4f2",
+              "value": 0.20425565680488944,
+              "lower": 0.20243,
+              "upper": 0.20972,
+              "startedAt": 1788147315184
+            },
+            {
+              "hash": "8782d2cdd8041a29fc8f95bbf1fb36dcab39e27d",
+              "shortHash": "8782d2cd",
+              "date": 1784389701000,
+              "subject": "Topology: add YAML topology file support (#374)",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/8782d2cdd8041a29fc8f95bbf1fb36dcab39e27d",
+              "value": 0.19927471852861345,
+              "lower": 0.19465,
+              "upper": 0.21003,
+              "startedAt": 1788147224772
+            },
+            {
+              "hash": "19389440ef3920c72de0d9952e15a9aeb21ad77a",
+              "shortHash": "19389440",
+              "date": 1784399629000,
+              "subject": "doc: document YAML topology files and gateway priorities",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/19389440ef3920c72de0d9952e15a9aeb21ad77a",
+              "value": 0.19998378050513566,
+              "lower": 0.19682,
+              "upper": 0.20388,
+              "startedAt": 1788146770455
+            },
+            {
+              "hash": "b2c9c5075a64735c1592b398e6824e180d991c34",
+              "shortHash": "b2c9c507",
+              "date": 1785466776000,
+              "subject": "Task: reset quit flag when a task is resumed",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/b2c9c5075a64735c1592b398e6824e180d991c34",
+              "value": 0.20027984981425107,
+              "lower": 0.19799,
+              "upper": 0.20451,
+              "startedAt": 1788147360580
+            },
+            {
+              "hash": "3da8f155630018b8ba8dffe45a3e53a878d778eb",
+              "shortHash": "3da8f155",
+              "date": 1785414626000,
+              "subject": "Gateway: log to stderr when the log file cannot be opened",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/3da8f155630018b8ba8dffe45a3e53a878d778eb",
+              "value": 0.20180164836347103,
+              "lower": 0.19995,
+              "upper": 0.20263,
+              "startedAt": 1788146952045
+            },
+            {
+              "hash": "3c420a237339ae2fb8034734ddc9a0ee48385ae2",
+              "shortHash": "3c420a23",
+              "date": 1785798746000,
+              "subject": "EngineClient: fix data loss on CR-separated output",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/3c420a237339ae2fb8034734ddc9a0ee48385ae2",
+              "value": 0.20069665554910898,
+              "lower": 0.19794,
+              "upper": 0.20196,
+              "startedAt": 1788146907583
+            },
+            {
+              "hash": "72336383ce30f54d34e8cb101e81db8fc6ea24de",
+              "shortHash": "72336383",
+              "date": 1785467192000,
+              "subject": "RangeSetND: fix exponential splitting in difference_update()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
+              "value": 0.1957485645543784,
+              "lower": 0.19389,
+              "upper": 0.20096,
+              "startedAt": 1788146680971
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.19945253594778478,
+              "lower": 0.19591,
+              "upper": 0.20045,
+              "startedAt": 1788147528203
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.19861605297774076,
+              "lower": 0.19718,
+              "upper": 0.20022,
+              "startedAt": 1788146717799
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "bench_imports.Imports.timeraw_import_nodeset",
       "group": "Imports",
@@ -244,14 +772,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.016271241940557957,
               "lower": 0.0162,
               "upper": 0.016621,
               "startedAt": 1787748791887
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.017891468247398734,
+              "lower": 0.017732,
+              "upper": 0.018688,
+              "startedAt": 1788147529893
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.01748502510599792,
+              "lower": 0.017429,
+              "upper": 0.017581,
+              "startedAt": 1788147617275
             }
           ]
         }
@@ -484,14 +1036,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.049944867845624685,
               "lower": 0.048534,
               "upper": 0.050497,
               "startedAt": 1787748792239
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.05633836751803756,
+              "lower": 0.055629,
+              "upper": 0.058109,
+              "startedAt": 1788147530276
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.05306848743930459,
+              "lower": 0.052982,
+              "upper": 0.053434,
+              "startedAt": 1788147617637
             }
           ]
         }
@@ -724,14 +1300,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.002063361850256721,
               "lower": 0.0019298,
               "upper": 0.0021935,
               "startedAt": 1787748793662
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.0023894195444881918,
+              "lower": 0.0023705,
+              "upper": 0.0023976,
+              "startedAt": 1788147531851
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.0022668033372610806,
+              "lower": 0.0022581,
+              "upper": 0.0022992,
+              "startedAt": 1788147619090
             }
           ]
         }
@@ -964,14 +1564,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.007170322234742343,
               "lower": 0.0067548,
               "upper": 0.0072547,
               "startedAt": 1787748793927
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.007863105973228812,
+              "lower": 0.0077827,
+              "upper": 0.0078823,
+              "startedAt": 1788147532118
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.007623593206517398,
+              "lower": 0.007387,
+              "upper": 0.0077492,
+              "startedAt": 1788147619340
             }
           ]
         }
@@ -1204,14 +1828,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 1.5195506985427303e-05,
               "lower": 1.3948e-05,
               "upper": 1.5436e-05,
               "startedAt": 1787748794256
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 1.6857507817317234e-05,
+              "lower": 1.6675e-05,
+              "upper": 1.6965e-05,
+              "startedAt": 1788147532478
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 1.6343277766634383e-05,
+              "lower": 1.6227e-05,
+              "upper": 1.6511e-05,
+              "startedAt": 1788147619687
             }
           ]
         }
@@ -1444,14 +2092,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 8.060554668535913e-06,
               "lower": 7.7053e-06,
               "upper": 8.0744e-06,
               "startedAt": 1787748794520
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 8.761672592892446e-06,
+              "lower": 8.3972e-06,
+              "upper": 9.0272e-06,
+              "startedAt": 1788147532736
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 8.549197654428437e-06,
+              "lower": 8.3819e-06,
+              "upper": 8.7188e-06,
+              "startedAt": 1788147619943
             }
           ]
         }
@@ -1684,14 +2356,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.006899268017150462,
               "lower": 0.0068397,
               "upper": 0.0069314,
               "startedAt": 1787748797256
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.007029823958873749,
+              "lower": 0.0069145,
+              "upper": 0.0070684,
+              "startedAt": 1788147535494
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.006925969501025975,
+              "lower": 0.006884,
+              "upper": 0.0069788,
+              "startedAt": 1788147622659
             }
           ]
         }
@@ -1924,14 +2620,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.0021695826202630998,
               "lower": 0.0020469,
               "upper": 0.0022582,
               "startedAt": 1787748797789
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.0024518055375665425,
+              "lower": 0.0024072,
+              "upper": 0.0024825,
+              "startedAt": 1788147536031
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.0023429701570421456,
+              "lower": 0.0023184,
+              "upper": 0.0023738,
+              "startedAt": 1788147623195
             }
           ]
         }
@@ -2164,14 +2884,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.15810076612979174,
               "lower": 0.15099,
               "upper": 0.16145,
               "startedAt": 1787748799814
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.1772528018336743,
+              "lower": 0.17395,
+              "upper": 0.17843,
+              "startedAt": 1788147538107
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.1659821248613298,
+              "lower": 0.16535,
+              "upper": 0.16838,
+              "startedAt": 1788147625240
             }
           ]
         }
@@ -2404,14 +3148,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.3602006370201707,
               "lower": 0.35494,
               "upper": 0.36384,
               "startedAt": 1787748801145
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.3871601396240294,
+              "lower": 0.38225,
+              "upper": 0.39097,
+              "startedAt": 1788147539523
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.3794773044064641,
+              "lower": 0.37532,
+              "upper": 0.38108,
+              "startedAt": 1788147626612
             }
           ]
         }
@@ -2644,14 +3412,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 3.3197003043450965e-06,
               "lower": 3.1639e-06,
               "upper": 3.4111e-06,
               "startedAt": 1787748795044
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 3.72782786653017e-06,
+              "lower": 3.6711e-06,
+              "upper": 3.807e-06,
+              "startedAt": 1788147533274
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 3.642385815500572e-06,
+              "lower": 3.6204e-06,
+              "upper": 3.6776e-06,
+              "startedAt": 1788147620470
             }
           ]
         }
@@ -2884,14 +3676,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.01835624221712351,
               "lower": 0.017025,
               "upper": 0.019962,
               "startedAt": 1787748795580
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.021367467707023025,
+              "lower": 0.020898,
+              "upper": 0.021844,
+              "startedAt": 1788147533797
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.02041824534535408,
+              "lower": 0.020332,
+              "upper": 0.020668,
+              "startedAt": 1788147620999
             }
           ]
         }
@@ -3124,14 +3940,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.1762249432504177,
               "lower": 0.17505,
               "upper": 0.17763,
               "startedAt": 1787748803691
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.18176863784901798,
+              "lower": 0.17998,
+              "upper": 0.18252,
+              "startedAt": 1788147542197
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.17757702129893005,
+              "lower": 0.17664,
+              "upper": 0.17867,
+              "startedAt": 1788147629259
             }
           ]
         }
@@ -3364,14 +4204,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.00010802167108153352,
               "lower": 0.00010534,
               "upper": 0.0001082,
               "startedAt": 1787748805103
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.00011624913447751448,
+              "lower": 0.00011499,
+              "upper": 0.00011802,
+              "startedAt": 1788147543645
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.00011222194352177615,
+              "lower": 0.00011121,
+              "upper": 0.00011319,
+              "startedAt": 1788147630694
             }
           ]
         }
@@ -3604,14 +4468,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.02996372082270682,
               "lower": 0.029611,
               "upper": 0.030087,
               "startedAt": 1787748805632
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.03145971964113414,
+              "lower": 0.031325,
+              "upper": 0.035271,
+              "startedAt": 1788147544177
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.03084400179795921,
+              "lower": 0.030779,
+              "upper": 0.032839,
+              "startedAt": 1788147631226
             }
           ]
         }
@@ -3844,14 +4732,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 5.241322853579753e-05,
               "lower": 5.1346e-05,
               "upper": 5.2753e-05,
               "startedAt": 1787748806239
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 5.629776905362423e-05,
+              "lower": 5.5848e-05,
+              "upper": 5.6594e-05,
+              "startedAt": 1788147544830
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 5.5231740745254835e-05,
+              "lower": 5.5072e-05,
+              "upper": 5.5488e-05,
+              "startedAt": 1788147631848
             }
           ]
         }
@@ -4084,14 +4996,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.0009128048550337553,
               "lower": 0.00088976,
               "upper": 0.00092669,
               "startedAt": 1787748796161
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.0009889765007590706,
+              "lower": 0.00097519,
+              "upper": 0.0010047,
+              "startedAt": 1788147534376
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.0009516531347551129,
+              "lower": 0.00094418,
+              "upper": 0.0009616,
+              "startedAt": 1788147621569
             }
           ]
         }
@@ -4324,14 +5260,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.018857728922739625,
               "lower": 0.018296,
               "upper": 0.019801,
               "startedAt": 1787748796688
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.02108192420564592,
+              "lower": 0.020652,
+              "upper": 0.021466,
+              "startedAt": 1788147534913
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.020409806864336133,
+              "lower": 0.020046,
+              "upper": 0.020484,
+              "startedAt": 1788147622089
             }
           ]
         }
@@ -4564,14 +5524,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.00946976791601628,
               "lower": 0.0094427,
               "upper": 0.0095198,
               "startedAt": 1787748798272
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.009575058124028146,
+              "lower": 0.0095213,
+              "upper": 0.0095926,
+              "startedAt": 1788147536538
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.009520732564851642,
+              "lower": 0.0094966,
+              "upper": 0.0095538,
+              "startedAt": 1788147623693
             }
           ]
         }
@@ -4804,14 +5788,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.005539583275094628,
               "lower": 0.005457,
               "upper": 0.0055926,
               "startedAt": 1787748798834
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.006295204861089587,
+              "lower": 0.0062492,
+              "upper": 0.0063371,
+              "startedAt": 1788147537117
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.006064336514100432,
+              "lower": 0.0060089,
+              "upper": 0.006103,
+              "startedAt": 1788147624254
             }
           ]
         }
@@ -5044,14 +6052,566 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 1.0563991751038288e-05,
               "lower": 1.0051e-05,
               "upper": 1.0909e-05,
               "startedAt": 1787748799317
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 1.196379118431162e-05,
+              "lower": 1.1887e-05,
+              "upper": 1.2143e-05,
+              "startedAt": 1788147537608
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 1.1362274605277422e-05,
+              "lower": 1.1332e-05,
+              "upper": 1.1445e-05,
+              "startedAt": 1788147624747
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bench_output.Output.time_ev_read",
+      "group": "Output",
+      "label": "Output.time_ev_read",
+      "operation": "time_ev_read",
+      "unit": "seconds",
+      "parameterNames": [],
+      "series": [
+        {
+          "id": "0c492dff7d5f1979",
+          "machineId": "1ba1af82e77d",
+          "parameters": {},
+          "parameterLabel": "default",
+          "points": [
+            {
+              "hash": "7ab742e7a493aa5245b58085dc34d7d07015a391",
+              "shortHash": "7ab742e7",
+              "date": 1508782893000,
+              "subject": "Release 1.8 (#360)",
+              "tags": [
+                "v1.8"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/7ab742e7a493aa5245b58085dc34d7d07015a391",
+              "value": 1.458771841833368,
+              "lower": 1.4109,
+              "upper": 1.4751,
+              "startedAt": 1788147091029
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 1.433351224521175,
+              "lower": 1.4212,
+              "upper": 1.4459,
+              "startedAt": 1788147047064
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 1.438910915516317,
+              "lower": 1.4278,
+              "upper": 1.4485,
+              "startedAt": 1788147271368
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 1.429177031153813,
+              "lower": 1.4225,
+              "upper": 1.459,
+              "startedAt": 1788146861057
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 1.457110419869423,
+              "lower": 1.4351,
+              "upper": 1.4818,
+              "startedAt": 1788147452431
+            },
+            {
+              "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
+              "shortHash": "5c3dccca",
+              "date": 1737768216000,
+              "subject": "Bump pillow from 5.4.1 to 10.3.0 in /doc/sphinx (#576)",
+              "tags": [
+                "v1.9.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/5c3dccca6313f964551a7343f9e67c4e4816fb40",
+              "value": 1.415647524408996,
+              "lower": 1.3928,
+              "upper": 1.4523,
+              "startedAt": 1788146998737
+            },
+            {
+              "hash": "7bcb5423146d47510d9d75fe240b8c6da7460cdb",
+              "shortHash": "7bcb5423",
+              "date": 1783191600000,
+              "subject": "Release 1.10 (#642)",
+              "tags": [
+                "v1.10"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/7bcb5423146d47510d9d75fe240b8c6da7460cdb",
+              "value": 1.4537057608831674,
+              "lower": 1.4355,
+              "upper": 1.4608,
+              "startedAt": 1788147136128
+            },
+            {
+              "hash": "7d440c7cce5ca358ff4a59729bc7b26e3e857d3e",
+              "shortHash": "7d440c7c",
+              "date": 1784236235000,
+              "subject": "Release 1.10.1 (#676)",
+              "tags": [
+                "v1.10.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/7d440c7cce5ca358ff4a59729bc7b26e3e857d3e",
+              "value": 1.4507980064954609,
+              "lower": 1.4247,
+              "upper": 1.4682,
+              "startedAt": 1788147181123
+            },
+            {
+              "hash": "1f409ea86c5d81c449e84cca67e289891b080a6f",
+              "shortHash": "1f409ea8",
+              "date": 1783622570000,
+              "subject": "RangeSet: compute padding without sorting",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/1f409ea86c5d81c449e84cca67e289891b080a6f",
+              "value": 1.4615612288471311,
+              "lower": 1.4388,
+              "upper": 1.473,
+              "startedAt": 1788146816933
+            },
+            {
+              "hash": "c2dd2ae844ecf3e0fe0fd384bcb966376ad110d5",
+              "shortHash": "c2dd2ae8",
+              "date": 1784418571000,
+              "subject": "tests: cover tree copy dest trailing-slash semantics (#549)",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/c2dd2ae844ecf3e0fe0fd384bcb966376ad110d5",
+              "value": 1.4479534062556922,
+              "lower": 1.4321,
+              "upper": 1.4601,
+              "startedAt": 1788147407427
+            },
+            {
+              "hash": "94a06fc4270633d13f5ff99412aae9b0d299c4f2",
+              "shortHash": "94a06fc4",
+              "date": 1783562325000,
+              "subject": "RangeSetND: speed up multivariate folding",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/94a06fc4270633d13f5ff99412aae9b0d299c4f2",
+              "value": 1.4760691467672586,
+              "lower": 1.4383,
+              "upper": 1.4985,
+              "startedAt": 1788147316923
+            },
+            {
+              "hash": "8782d2cdd8041a29fc8f95bbf1fb36dcab39e27d",
+              "shortHash": "8782d2cd",
+              "date": 1784389701000,
+              "subject": "Topology: add YAML topology file support (#374)",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/8782d2cdd8041a29fc8f95bbf1fb36dcab39e27d",
+              "value": 1.4532977801281959,
+              "lower": 1.4319,
+              "upper": 1.4809,
+              "startedAt": 1788147226507
+            },
+            {
+              "hash": "19389440ef3920c72de0d9952e15a9aeb21ad77a",
+              "shortHash": "19389440",
+              "date": 1784399629000,
+              "subject": "doc: document YAML topology files and gateway priorities",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/19389440ef3920c72de0d9952e15a9aeb21ad77a",
+              "value": 1.4240455941762775,
+              "lower": 1.3897,
+              "upper": 1.4573,
+              "startedAt": 1788146772121
+            },
+            {
+              "hash": "b2c9c5075a64735c1592b398e6824e180d991c34",
+              "shortHash": "b2c9c507",
+              "date": 1785466776000,
+              "subject": "Task: reset quit flag when a task is resumed",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/b2c9c5075a64735c1592b398e6824e180d991c34",
+              "value": 1.4487810793798417,
+              "lower": 1.4331,
+              "upper": 1.4828,
+              "startedAt": 1788147362260
+            },
+            {
+              "hash": "3da8f155630018b8ba8dffe45a3e53a878d778eb",
+              "shortHash": "3da8f155",
+              "date": 1785414626000,
+              "subject": "Gateway: log to stderr when the log file cannot be opened",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/3da8f155630018b8ba8dffe45a3e53a878d778eb",
+              "value": 1.4368320042267442,
+              "lower": 1.4029,
+              "upper": 1.4511,
+              "startedAt": 1788146953729
+            },
+            {
+              "hash": "3c420a237339ae2fb8034734ddc9a0ee48385ae2",
+              "shortHash": "3c420a23",
+              "date": 1785798746000,
+              "subject": "EngineClient: fix data loss on CR-separated output",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/3c420a237339ae2fb8034734ddc9a0ee48385ae2",
+              "value": 1.3900949810631573,
+              "lower": 1.3752,
+              "upper": 1.3994,
+              "startedAt": 1788146909277
+            },
+            {
+              "hash": "72336383ce30f54d34e8cb101e81db8fc6ea24de",
+              "shortHash": "72336383",
+              "date": 1785467192000,
+              "subject": "RangeSetND: fix exponential splitting in difference_update()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
+              "value": 1.3795321695506573,
+              "lower": 1.357,
+              "upper": 1.401,
+              "startedAt": 1788146682645
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.1156133865006268,
+              "lower": 0.11285,
+              "upper": 0.11722,
+              "startedAt": 1788147545336
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.11348976567387581,
+              "lower": 0.11169,
+              "upper": 0.11852,
+              "startedAt": 1788146719492
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bench_output.Output.time_gather",
+      "group": "Output",
+      "label": "Output.time_gather",
+      "operation": "time_gather",
+      "unit": "seconds",
+      "parameterNames": [],
+      "series": [
+        {
+          "id": "2c3fe9e2750c2f99",
+          "machineId": "1ba1af82e77d",
+          "parameters": {},
+          "parameterLabel": "default",
+          "points": [
+            {
+              "hash": "7ab742e7a493aa5245b58085dc34d7d07015a391",
+              "shortHash": "7ab742e7",
+              "date": 1508782893000,
+              "subject": "Release 1.8 (#360)",
+              "tags": [
+                "v1.8"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/7ab742e7a493aa5245b58085dc34d7d07015a391",
+              "value": 0.15112471370957792,
+              "lower": 0.15029,
+              "upper": 0.15311,
+              "startedAt": 1788147099821
+            },
+            {
+              "hash": "783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "shortHash": "783dfa8c",
+              "date": 1540961919000,
+              "subject": "Release 1.8.1",
+              "tags": [
+                "v1.8.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/783dfa8cfdb8799ad445e120e304151e5cc4fbbb",
+              "value": 0.1522049349732697,
+              "lower": 0.14861,
+              "upper": 0.15488,
+              "startedAt": 1788147055824
+            },
+            {
+              "hash": "8fb4204218563822568c170b5b8f8d202141248c",
+              "shortHash": "8fb42042",
+              "date": 1565676891000,
+              "subject": "Release 1.8.2",
+              "tags": [
+                "v1.8.2"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/8fb4204218563822568c170b5b8f8d202141248c",
+              "value": 0.15359856537543237,
+              "lower": 0.15317,
+              "upper": 0.15604,
+              "startedAt": 1788147280104
+            },
+            {
+              "hash": "20b47957675982237ca62cc53e438131f6c9329f",
+              "shortHash": "20b47957",
+              "date": 1575227903000,
+              "subject": "Release 1.8.3",
+              "tags": [
+                "v1.8.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/20b47957675982237ca62cc53e438131f6c9329f",
+              "value": 0.15235524834133685,
+              "lower": 0.14961,
+              "upper": 0.1534,
+              "startedAt": 1788146869818
+            },
+            {
+              "hash": "c421133ed4baa69e35ff76c476d4097201485344",
+              "shortHash": "c421133e",
+              "date": 1636157185000,
+              "subject": "Release 1.8.4 (#465)",
+              "tags": [
+                "v1.8.4"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/c421133ed4baa69e35ff76c476d4097201485344",
+              "value": 0.15207816404290497,
+              "lower": 0.14883,
+              "upper": 0.1543,
+              "startedAt": 1788147461276
+            },
+            {
+              "hash": "5c3dccca6313f964551a7343f9e67c4e4816fb40",
+              "shortHash": "5c3dccca",
+              "date": 1737768216000,
+              "subject": "Bump pillow from 5.4.1 to 10.3.0 in /doc/sphinx (#576)",
+              "tags": [
+                "v1.9.3"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/5c3dccca6313f964551a7343f9e67c4e4816fb40",
+              "value": 0.15213865065015852,
+              "lower": 0.14962,
+              "upper": 0.15361,
+              "startedAt": 1788147007555
+            },
+            {
+              "hash": "7bcb5423146d47510d9d75fe240b8c6da7460cdb",
+              "shortHash": "7bcb5423",
+              "date": 1783191600000,
+              "subject": "Release 1.10 (#642)",
+              "tags": [
+                "v1.10"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/7bcb5423146d47510d9d75fe240b8c6da7460cdb",
+              "value": 0.15137722808867693,
+              "lower": 0.1497,
+              "upper": 0.15471,
+              "startedAt": 1788147144955
+            },
+            {
+              "hash": "7d440c7cce5ca358ff4a59729bc7b26e3e857d3e",
+              "shortHash": "7d440c7c",
+              "date": 1784236235000,
+              "subject": "Release 1.10.1 (#676)",
+              "tags": [
+                "v1.10.1"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/7d440c7cce5ca358ff4a59729bc7b26e3e857d3e",
+              "value": 0.1547804104629904,
+              "lower": 0.1514,
+              "upper": 0.15651,
+              "startedAt": 1788147189898
+            },
+            {
+              "hash": "1f409ea86c5d81c449e84cca67e289891b080a6f",
+              "shortHash": "1f409ea8",
+              "date": 1783622570000,
+              "subject": "RangeSet: compute padding without sorting",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/1f409ea86c5d81c449e84cca67e289891b080a6f",
+              "value": 0.1529177667107433,
+              "lower": 0.15159,
+              "upper": 0.15479,
+              "startedAt": 1788146825841
+            },
+            {
+              "hash": "c2dd2ae844ecf3e0fe0fd384bcb966376ad110d5",
+              "shortHash": "c2dd2ae8",
+              "date": 1784418571000,
+              "subject": "tests: cover tree copy dest trailing-slash semantics (#549)",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/c2dd2ae844ecf3e0fe0fd384bcb966376ad110d5",
+              "value": 0.1550738695077598,
+              "lower": 0.15393,
+              "upper": 0.15752,
+              "startedAt": 1788147416355
+            },
+            {
+              "hash": "94a06fc4270633d13f5ff99412aae9b0d299c4f2",
+              "shortHash": "94a06fc4",
+              "date": 1783562325000,
+              "subject": "RangeSetND: speed up multivariate folding",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/94a06fc4270633d13f5ff99412aae9b0d299c4f2",
+              "value": 0.1562613877467811,
+              "lower": 0.15582,
+              "upper": 0.15758,
+              "startedAt": 1788147325790
+            },
+            {
+              "hash": "8782d2cdd8041a29fc8f95bbf1fb36dcab39e27d",
+              "shortHash": "8782d2cd",
+              "date": 1784389701000,
+              "subject": "Topology: add YAML topology file support (#374)",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/8782d2cdd8041a29fc8f95bbf1fb36dcab39e27d",
+              "value": 0.15389960655011237,
+              "lower": 0.15176,
+              "upper": 0.15665,
+              "startedAt": 1788147235384
+            },
+            {
+              "hash": "19389440ef3920c72de0d9952e15a9aeb21ad77a",
+              "shortHash": "19389440",
+              "date": 1784399629000,
+              "subject": "doc: document YAML topology files and gateway priorities",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/19389440ef3920c72de0d9952e15a9aeb21ad77a",
+              "value": 0.14879949716851115,
+              "lower": 0.14815,
+              "upper": 0.14984,
+              "startedAt": 1788146780815
+            },
+            {
+              "hash": "b2c9c5075a64735c1592b398e6824e180d991c34",
+              "shortHash": "b2c9c507",
+              "date": 1785466776000,
+              "subject": "Task: reset quit flag when a task is resumed",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/b2c9c5075a64735c1592b398e6824e180d991c34",
+              "value": 0.15035393997095525,
+              "lower": 0.15018,
+              "upper": 0.15181,
+              "startedAt": 1788147371117
+            },
+            {
+              "hash": "3da8f155630018b8ba8dffe45a3e53a878d778eb",
+              "shortHash": "3da8f155",
+              "date": 1785414626000,
+              "subject": "Gateway: log to stderr when the log file cannot be opened",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/3da8f155630018b8ba8dffe45a3e53a878d778eb",
+              "value": 0.15332944854162633,
+              "lower": 0.15221,
+              "upper": 0.15585,
+              "startedAt": 1788146962419
+            },
+            {
+              "hash": "3c420a237339ae2fb8034734ddc9a0ee48385ae2",
+              "shortHash": "3c420a23",
+              "date": 1785798746000,
+              "subject": "EngineClient: fix data loss on CR-separated output",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/3c420a237339ae2fb8034734ddc9a0ee48385ae2",
+              "value": 0.14082780573517084,
+              "lower": 0.13986,
+              "upper": 0.14168,
+              "startedAt": 1788146917741
+            },
+            {
+              "hash": "72336383ce30f54d34e8cb101e81db8fc6ea24de",
+              "shortHash": "72336383",
+              "date": 1785467192000,
+              "subject": "RangeSetND: fix exponential splitting in difference_update()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
+              "value": 0.14161161286756396,
+              "lower": 0.13414,
+              "upper": 0.14456,
+              "startedAt": 1788146691189
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.1416056000161916,
+              "lower": 0.13931,
+              "upper": 0.14491,
+              "startedAt": 1788147546148
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.14642553590238094,
+              "lower": 0.14497,
+              "upper": 0.14714,
+              "startedAt": 1788146720286
             }
           ]
         }
@@ -5284,14 +6844,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 2.187323141374455e-07,
               "lower": 2.1127e-07,
               "upper": 2.2383e-07,
               "startedAt": 1787748806733
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 2.3861880891418664e-07,
+              "lower": 2.3345e-07,
+              "upper": 2.4457e-07,
+              "startedAt": 1788147547159
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 2.3696432214229082e-07,
+              "lower": 2.3049e-07,
+              "upper": 2.5404e-07,
+              "startedAt": 1788147632347
             }
           ]
         }
@@ -5524,14 +7108,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 1.6066745891859872e-07,
               "lower": 1.5536e-07,
               "upper": 1.6407e-07,
               "startedAt": 1787748807837
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 1.7599164816306914e-07,
+              "lower": 1.7233e-07,
+              "upper": 1.7934e-07,
+              "startedAt": 1788147548305
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 1.7253516068194615e-07,
+              "lower": 1.6898e-07,
+              "upper": 1.7605e-07,
+              "startedAt": 1788147633455
             }
           ]
         }
@@ -5764,14 +7372,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.002882229955866933,
               "lower": 0.0028241,
               "upper": 0.0029522,
               "startedAt": 1787748808932
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.002910437004175037,
+              "lower": 0.0028415,
+              "upper": 0.0029447,
+              "startedAt": 1788147549442
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.00292153749614954,
+              "lower": 0.002843,
+              "upper": 0.0029445,
+              "startedAt": 1788147634571
             }
           ]
         }
@@ -6004,14 +7636,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.006853202008642256,
               "lower": 0.0067889,
               "upper": 0.0069242,
               "startedAt": 1787748819920
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.006938076461665332,
+              "lower": 0.0068868,
+              "upper": 0.0071469,
+              "startedAt": 1788147560868
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.006889212992973626,
+              "lower": 0.0068759,
+              "upper": 0.0069233,
+              "startedAt": 1788147645692
             }
           ]
         }
@@ -6244,14 +7900,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.03295197710394859,
               "lower": 0.032821,
               "upper": 0.033098,
               "startedAt": 1787748824102
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.03559761471115053,
+              "lower": 0.035363,
+              "upper": 0.03587,
+              "startedAt": 1788147565173
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.0351686361245811,
+              "lower": 0.034681,
+              "upper": 0.036428,
+              "startedAt": 1788147649940
             }
           ]
         }
@@ -6484,14 +8164,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.04233233234845102,
               "lower": 0.042146,
               "upper": 0.042543,
               "startedAt": 1787748825201
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.04590933443978429,
+              "lower": 0.045866,
+              "upper": 0.045949,
+              "startedAt": 1788147566361
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.04525588592514396,
+              "lower": 0.044997,
+              "upper": 0.045521,
+              "startedAt": 1788147651093
             }
           ]
         }
@@ -6724,14 +8428,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 2.0009808991624263e-07,
               "lower": 1.9365e-07,
               "upper": 2.0214e-07,
               "startedAt": 1787748810044
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 2.1539078429945935e-07,
+              "lower": 2.1433e-07,
+              "upper": 2.2022e-07,
+              "startedAt": 1788147550582
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 2.0974827251646967e-07,
+              "lower": 2.0917e-07,
+              "upper": 2.1027e-07,
+              "startedAt": 1788147635675
             }
           ]
         }
@@ -6964,14 +8692,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.002837803494185209,
               "lower": 0.0028327,
               "upper": 0.0028388,
               "startedAt": 1787748821018
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.002841701381839812,
+              "lower": 0.0028362,
+              "upper": 0.002852,
+              "startedAt": 1788147561995
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.002821934083476663,
+              "lower": 0.002818,
+              "upper": 0.0028345,
+              "startedAt": 1788147646808
             }
           ]
         }
@@ -7204,14 +8956,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.0005258973455056549,
               "lower": 0.00051828,
               "upper": 0.00052922,
               "startedAt": 1787748811053
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.0005376108456403017,
+              "lower": 0.00053542,
+              "upper": 0.00054031,
+              "startedAt": 1788147551637
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.0005354403983801603,
+              "lower": 0.00053391,
+              "upper": 0.00053716,
+              "startedAt": 1788147636692
             }
           ]
         }
@@ -7444,14 +9220,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.008088217698968947,
               "lower": 0.0080261,
               "upper": 0.0082773,
               "startedAt": 1787748812137
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.008803710457868874,
+              "lower": 0.0084523,
+              "upper": 0.0090006,
+              "startedAt": 1788147552756
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.008162263664416969,
+              "lower": 0.0080961,
+              "upper": 0.0082876,
+              "startedAt": 1788147637780
             }
           ]
         }
@@ -7684,14 +9484,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.14055468351580203,
               "lower": 0.14021,
               "upper": 0.14297,
               "startedAt": 1787748826365
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.1659389934502542,
+              "lower": 0.16432,
+              "upper": 0.16693,
+              "startedAt": 1788147567694
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.16496839909814298,
+              "lower": 0.16331,
+              "upper": 0.16579,
+              "startedAt": 1788147652411
             }
           ]
         }
@@ -7924,14 +9748,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.021078080404549837,
               "lower": 0.021035,
               "upper": 0.021241,
               "startedAt": 1787748828048
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.02447471860796213,
+              "lower": 0.024247,
+              "upper": 0.024709,
+              "startedAt": 1788147569658
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.024056949885562062,
+              "lower": 0.023917,
+              "upper": 0.024128,
+              "startedAt": 1788147654351
             }
           ]
         }
@@ -8164,14 +10012,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.031472662929445505,
               "lower": 0.030975,
               "upper": 0.032654,
               "startedAt": 1787748829100
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.03242871956899762,
+              "lower": 0.03206,
+              "upper": 0.033688,
+              "startedAt": 1788147570849
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.0321633864659816,
+              "lower": 0.031948,
+              "upper": 0.032372,
+              "startedAt": 1788147655550
             }
           ]
         }
@@ -8404,14 +10276,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.021434148075059056,
               "lower": 0.021204,
               "upper": 0.021775,
               "startedAt": 1787748830210
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.02474827505648136,
+              "lower": 0.024673,
+              "upper": 0.024914,
+              "startedAt": 1788147572092
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.024021929129958153,
+              "lower": 0.023985,
+              "upper": 0.024104,
+              "startedAt": 1788147656761
             }
           ]
         }
@@ -8644,14 +10540,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.0005678461554149786,
               "lower": 0.00056595,
               "upper": 0.00058618,
               "startedAt": 1787748813165
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.0005956315176768436,
+              "lower": 0.00058933,
+              "upper": 0.00059612,
+              "startedAt": 1788147553828
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.0005809984997742706,
+              "lower": 0.00057956,
+              "upper": 0.00058546,
+              "startedAt": 1788147638820
             }
           ]
         }
@@ -8884,14 +10804,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.00047429380735949326,
               "lower": 0.00046278,
               "upper": 0.00047633,
               "startedAt": 1787748814152
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.0004937394246967001,
+              "lower": 0.00049047,
+              "upper": 0.00050257,
+              "startedAt": 1788147554867
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.0004904977024786851,
+              "lower": 0.00048073,
+              "upper": 0.00049877,
+              "startedAt": 1788147639829
             }
           ]
         }
@@ -9124,14 +11068,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.019141762517392635,
               "lower": 0.018965,
               "upper": 0.019342,
               "startedAt": 1787748815171
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.02042684704065323,
+              "lower": 0.020087,
+              "upper": 0.020835,
+              "startedAt": 1788147555923
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.020095131127163768,
+              "lower": 0.019931,
+              "upper": 0.020554,
+              "startedAt": 1788147640867
             }
           ]
         }
@@ -9364,14 +11332,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.01902257208712399,
               "lower": 0.018736,
               "upper": 0.019257,
               "startedAt": 1787748816307
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.020315161906182766,
+              "lower": 0.019846,
+              "upper": 0.020632,
+              "startedAt": 1788147557115
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.019907434470951557,
+              "lower": 0.01983,
+              "upper": 0.020074,
+              "startedAt": 1788147642029
             }
           ]
         }
@@ -9604,14 +11596,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.019949940964579582,
               "lower": 0.019746,
               "upper": 0.020356,
               "startedAt": 1787748817455
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.021446283906698227,
+              "lower": 0.02094,
+              "upper": 0.022022,
+              "startedAt": 1788147558301
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.02080570301041007,
+              "lower": 0.020768,
+              "upper": 0.020966,
+              "startedAt": 1788147643190
             }
           ]
         }
@@ -9844,14 +11860,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.052161058178171515,
               "lower": 0.05176,
               "upper": 0.052543,
               "startedAt": 1787748818614
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.0552591176237911,
+              "lower": 0.054515,
+              "upper": 0.055699,
+              "startedAt": 1788147559502
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.053797293221578,
+              "lower": 0.05367,
+              "upper": 0.054683,
+              "startedAt": 1788147644361
             }
           ]
         }
@@ -10084,14 +12124,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.007929589133709669,
               "lower": 0.0079139,
               "upper": 0.0079417,
               "startedAt": 1787748822041
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.007910601096227765,
+              "lower": 0.0078908,
+              "upper": 0.0079355,
+              "startedAt": 1788147563030
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.007919821073301136,
+              "lower": 0.0079017,
+              "upper": 0.0079454,
+              "startedAt": 1788147647835
             }
           ]
         }
@@ -10324,14 +12388,38 @@
               "shortHash": "72336383",
               "date": 1785467192000,
               "subject": "RangeSetND: fix exponential splitting in difference_update()",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/72336383ce30f54d34e8cb101e81db8fc6ea24de",
               "value": 0.00924035522621125,
               "lower": 0.0091836,
               "upper": 0.0092953,
               "startedAt": 1787748823066
+            },
+            {
+              "hash": "90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "shortHash": "90ac034c",
+              "date": 1785725609000,
+              "subject": "Worker: speed up event handler signature checks",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/90ac034caa288ce7a939f94efdbdc634af9dfde8",
+              "value": 0.009153078426606953,
+              "lower": 0.0091029,
+              "upper": 0.0091981,
+              "startedAt": 1788147564094
+            },
+            {
+              "hash": "26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "shortHash": "26d2d85c",
+              "date": 1785808278000,
+              "subject": "clush: ignore '#' comments in --hostfile",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
+              "value": 0.009264834341593087,
+              "lower": 0.009184,
+              "upper": 0.0095765,
+              "startedAt": 1788147648881
             }
           ]
         }
