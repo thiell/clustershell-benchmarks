@@ -4,7 +4,7 @@
     "repositoryUrl": "https://github.com/clustershell/clustershell",
     "asvUrl": "asv/"
   },
-  "generatedAt": "2026-08-31T03:40:56.761000+00:00",
+  "generatedAt": "2026-09-27T15:26:26.993000+00:00",
   "machines": [
     {
       "id": "1ba1af82e77d",
@@ -268,14 +268,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 1.4812896545045078,
               "lower": 1.4572,
               "upper": 1.5144,
               "startedAt": 1788146708690
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 1.3971543200314045,
+              "lower": 1.3845,
+              "upper": 1.4127,
+              "startedAt": 1790522737419
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 1.4087733165360987,
+              "lower": 1.3936,
+              "upper": 1.4358,
+              "startedAt": 1790522632667
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 1.4380552093498409,
+              "lower": 1.4006,
+              "upper": 1.4536,
+              "startedAt": 1790522527976
             }
           ]
         }
@@ -532,14 +568,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.19861605297774076,
               "lower": 0.19718,
               "upper": 0.20022,
               "startedAt": 1788146717799
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.12028671707957983,
+              "lower": 0.11973,
+              "upper": 0.12099,
+              "startedAt": 1790522745865
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.12101467791944742,
+              "lower": 0.11971,
+              "upper": 0.12224,
+              "startedAt": 1790522641191
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.1215288913808763,
+              "lower": 0.11962,
+              "upper": 0.12521,
+              "startedAt": 1790522536676
             }
           ]
         }
@@ -796,14 +868,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.01748502510599792,
               "lower": 0.017429,
               "upper": 0.017581,
               "startedAt": 1788147617275
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.017703416757285595,
+              "lower": 0.017642,
+              "upper": 0.017792,
+              "startedAt": 1790522747044
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.017737006302922964,
+              "lower": 0.017622,
+              "upper": 0.017804,
+              "startedAt": 1790522642384
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.016730152536183596,
+              "lower": 0.016384,
+              "upper": 0.016858,
+              "startedAt": 1790522537902
             }
           ]
         }
@@ -1060,14 +1168,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.05306848743930459,
               "lower": 0.052982,
               "upper": 0.053434,
               "startedAt": 1788147617637
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.05265930388122797,
+              "lower": 0.052613,
+              "upper": 0.052799,
+              "startedAt": 1790522747408
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.05152761144563556,
+              "lower": 0.050832,
+              "upper": 0.052252,
+              "startedAt": 1790522642746
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.049527107272297144,
+              "lower": 0.048556,
+              "upper": 0.050326,
+              "startedAt": 1790522538261
             }
           ]
         }
@@ -1324,14 +1468,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.0022668033372610806,
               "lower": 0.0022581,
               "upper": 0.0022992,
               "startedAt": 1788147619090
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.0022787914611399175,
+              "lower": 0.0022772,
+              "upper": 0.0022936,
+              "startedAt": 1790522748855
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.002309830579906702,
+              "lower": 0.0022712,
+              "upper": 0.0023424,
+              "startedAt": 1790522644187
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.002264641132205725,
+              "lower": 0.00211,
+              "upper": 0.0024015,
+              "startedAt": 1790522539698
             }
           ]
         }
@@ -1588,14 +1768,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.007623593206517398,
               "lower": 0.007387,
               "upper": 0.0077492,
               "startedAt": 1788147619340
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.00699734827503562,
+              "lower": 0.0069742,
+              "upper": 0.0070356,
+              "startedAt": 1790522749117
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.007535796845331788,
+              "lower": 0.0073312,
+              "upper": 0.0077547,
+              "startedAt": 1790522644438
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.0071778681594878435,
+              "lower": 0.006814,
+              "upper": 0.0075744,
+              "startedAt": 1790522539962
             }
           ]
         }
@@ -1852,14 +2068,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 1.6343277766634383e-05,
               "lower": 1.6227e-05,
               "upper": 1.6511e-05,
               "startedAt": 1788147619687
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 1.6070920100047788e-05,
+              "lower": 1.5894e-05,
+              "upper": 1.6271e-05,
+              "startedAt": 1790522749379
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 1.622765050926903e-05,
+              "lower": 1.6138e-05,
+              "upper": 1.6339e-05,
+              "startedAt": 1790522644776
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 1.544959955014697e-05,
+              "lower": 1.4912e-05,
+              "upper": 1.6057e-05,
+              "startedAt": 1790522540307
             }
           ]
         }
@@ -2116,14 +2368,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 8.549197654428437e-06,
               "lower": 8.3819e-06,
               "upper": 8.7188e-06,
               "startedAt": 1788147619943
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 8.323021517632441e-06,
+              "lower": 8.2774e-06,
+              "upper": 8.4024e-06,
+              "startedAt": 1790522749629
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 8.1623220860912e-06,
+              "lower": 7.9484e-06,
+              "upper": 8.3672e-06,
+              "startedAt": 1790522645027
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 8.10847879065155e-06,
+              "lower": 7.661e-06,
+              "upper": 8.2123e-06,
+              "startedAt": 1790522540571
             }
           ]
         }
@@ -2380,14 +2668,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.006925969501025975,
               "lower": 0.006884,
               "upper": 0.0069788,
               "startedAt": 1788147622659
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.008111813105642796,
+              "lower": 0.0068663,
+              "upper": 0.01181,
+              "startedAt": 1790522752343
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.0068755121901631355,
+              "lower": 0.0067878,
+              "upper": 0.0069233,
+              "startedAt": 1790522647740
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.006744951708242297,
+              "lower": 0.0067334,
+              "upper": 0.0067573,
+              "startedAt": 1790522543330
             }
           ]
         }
@@ -2644,14 +2968,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.0023429701570421456,
               "lower": 0.0023184,
               "upper": 0.0023738,
               "startedAt": 1788147623195
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.0023242478258907796,
+              "lower": 0.002319,
+              "upper": 0.0023363,
+              "startedAt": 1790522752834
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.002345141768455505,
+              "lower": 0.0023163,
+              "upper": 0.0023521,
+              "startedAt": 1790522648273
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.0022708803415298464,
+              "lower": 0.0022149,
+              "upper": 0.0022937,
+              "startedAt": 1790522543843
             }
           ]
         }
@@ -2908,14 +3268,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.1659821248613298,
               "lower": 0.16535,
               "upper": 0.16838,
               "startedAt": 1788147625240
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.16934667574241757,
+              "lower": 0.16759,
+              "upper": 0.17094,
+              "startedAt": 1790522754854
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.1652253419160843,
+              "lower": 0.16477,
+              "upper": 0.16603,
+              "startedAt": 1790522650285
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.16331160254776478,
+              "lower": 0.16275,
+              "upper": 0.16369,
+              "startedAt": 1790522545873
             }
           ]
         }
@@ -3172,14 +3568,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.3794773044064641,
               "lower": 0.37532,
               "upper": 0.38108,
               "startedAt": 1788147626612
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.3708116393536329,
+              "lower": 0.36793,
+              "upper": 0.37234,
+              "startedAt": 1790522756221
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.36855762591585517,
+              "lower": 0.36543,
+              "upper": 0.37414,
+              "startedAt": 1790522651641
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.36799689335748553,
+              "lower": 0.36534,
+              "upper": 0.36895,
+              "startedAt": 1790522547261
             }
           ]
         }
@@ -3436,14 +3868,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 3.642385815500572e-06,
               "lower": 3.6204e-06,
               "upper": 3.6776e-06,
               "startedAt": 1788147620470
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 3.5382454862465733e-06,
+              "lower": 3.5225e-06,
+              "upper": 3.5638e-06,
+              "startedAt": 1790522750156
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 3.6167926358176844e-06,
+              "lower": 3.57e-06,
+              "upper": 3.697e-06,
+              "startedAt": 1790522645549
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 3.4315190177554076e-06,
+              "lower": 3.2978e-06,
+              "upper": 3.6058e-06,
+              "startedAt": 1790522541108
             }
           ]
         }
@@ -3700,14 +4168,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.02041824534535408,
               "lower": 0.020332,
               "upper": 0.020668,
               "startedAt": 1788147620999
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.020206239074468613,
+              "lower": 0.020147,
+              "upper": 0.020231,
+              "startedAt": 1790522750682
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.020259428303688765,
+              "lower": 0.020006,
+              "upper": 0.020743,
+              "startedAt": 1790522646075
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.01971128024160862,
+              "lower": 0.019338,
+              "upper": 0.020076,
+              "startedAt": 1790522541660
             }
           ]
         }
@@ -3964,14 +4468,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.17757702129893005,
               "lower": 0.17664,
               "upper": 0.17867,
               "startedAt": 1788147629259
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.16274735797196627,
+              "lower": 0.15167,
+              "upper": 0.17386,
+              "startedAt": 1790522758844
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.17443233542144299,
+              "lower": 0.17412,
+              "upper": 0.17492,
+              "startedAt": 1790522654193
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.17382985400035977,
+              "lower": 0.17345,
+              "upper": 0.17542,
+              "startedAt": 1790522549833
             }
           ]
         }
@@ -4228,14 +4768,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.00011222194352177615,
               "lower": 0.00011121,
               "upper": 0.00011319,
               "startedAt": 1788147630694
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.00010947840796275572,
+              "lower": 0.0001083,
+              "upper": 0.00011109,
+              "startedAt": 1790522760091
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.00011191362534294423,
+              "lower": 0.00011153,
+              "upper": 0.00011247,
+              "startedAt": 1790522655593
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.00010945782581768414,
+              "lower": 0.00010918,
+              "upper": 0.00010993,
+              "startedAt": 1790522551245
             }
           ]
         }
@@ -4492,14 +5068,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.03084400179795921,
               "lower": 0.030779,
               "upper": 0.032839,
               "startedAt": 1788147631226
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.030873085372149944,
+              "lower": 0.030497,
+              "upper": 0.0356,
+              "startedAt": 1790522760598
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.030195689760148525,
+              "lower": 0.030109,
+              "upper": 0.03369,
+              "startedAt": 1790522656117
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.030518068000674248,
+              "lower": 0.030015,
+              "upper": 0.030988,
+              "startedAt": 1790522551773
             }
           ]
         }
@@ -4756,14 +5368,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 5.5231740745254835e-05,
               "lower": 5.5072e-05,
               "upper": 5.5488e-05,
               "startedAt": 1788147631848
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 5.475832757788088e-05,
+              "lower": 5.4303e-05,
+              "upper": 5.5238e-05,
+              "startedAt": 1790522761223
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 5.558377418380517e-05,
+              "lower": 5.481e-05,
+              "upper": 5.5873e-05,
+              "startedAt": 1790522656727
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 5.420734460401063e-05,
+              "lower": 5.4182e-05,
+              "upper": 5.6193e-05,
+              "startedAt": 1790522552381
             }
           ]
         }
@@ -5020,14 +5668,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.0009516531347551129,
               "lower": 0.00094418,
               "upper": 0.0009616,
               "startedAt": 1788147621569
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.0009508398361504078,
+              "lower": 0.00094551,
+              "upper": 0.00095535,
+              "startedAt": 1790522751254
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.0009513685733757236,
+              "lower": 0.00092867,
+              "upper": 0.00095707,
+              "startedAt": 1790522646639
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.0009257817097629111,
+              "lower": 0.00090768,
+              "upper": 0.00093207,
+              "startedAt": 1790522542227
             }
           ]
         }
@@ -5284,14 +5968,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.020409806864336133,
               "lower": 0.020046,
               "upper": 0.020484,
               "startedAt": 1788147622089
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.019970648922026157,
+              "lower": 0.01985,
+              "upper": 0.02017,
+              "startedAt": 1790522751773
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.019784612115472555,
+              "lower": 0.01953,
+              "upper": 0.019837,
+              "startedAt": 1790522647161
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.019429570995271206,
+              "lower": 0.018899,
+              "upper": 0.019702,
+              "startedAt": 1790522542764
             }
           ]
         }
@@ -5548,14 +6268,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.009520732564851642,
               "lower": 0.0094966,
               "upper": 0.0095538,
               "startedAt": 1788147623693
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.009474263526499271,
+              "lower": 0.0094561,
+              "upper": 0.0094933,
+              "startedAt": 1790522753330
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.009498951490968466,
+              "lower": 0.0092678,
+              "upper": 0.0095148,
+              "startedAt": 1790522648766
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.009529850212857127,
+              "lower": 0.0094692,
+              "upper": 0.009546,
+              "startedAt": 1790522544336
             }
           ]
         }
@@ -5812,14 +6568,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.006064336514100432,
               "lower": 0.0060089,
               "upper": 0.006103,
               "startedAt": 1788147624254
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.005836844444274902,
+              "lower": 0.0056406,
+              "upper": 0.0060376,
+              "startedAt": 1790522753884
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.005566193722188473,
+              "lower": 0.0054984,
+              "upper": 0.0056091,
+              "startedAt": 1790522649323
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.005614991299808025,
+              "lower": 0.0052052,
+              "upper": 0.0060454,
+              "startedAt": 1790522544891
             }
           ]
         }
@@ -6076,14 +6868,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 1.1362274605277422e-05,
               "lower": 1.1332e-05,
               "upper": 1.1445e-05,
               "startedAt": 1788147624747
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 1.1242847789705599e-05,
+              "lower": 1.113e-05,
+              "upper": 1.1353e-05,
+              "startedAt": 1790522754360
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 1.142575566828584e-05,
+              "lower": 1.1177e-05,
+              "upper": 1.1703e-05,
+              "startedAt": 1790522649802
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 1.1001704941694572e-05,
+              "lower": 1.0741e-05,
+              "upper": 1.1157e-05,
+              "startedAt": 1790522545380
             }
           ]
         }
@@ -6340,14 +7168,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.11348976567387581,
               "lower": 0.11169,
               "upper": 0.11852,
               "startedAt": 1788146719492
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.10925488779321313,
+              "lower": 0.10626,
+              "upper": 0.11278,
+              "startedAt": 1790522761717
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.10538844391703606,
+              "lower": 0.10426,
+              "upper": 0.10811,
+              "startedAt": 1790522657218
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.10659072082489729,
+              "lower": 0.103,
+              "upper": 0.10963,
+              "startedAt": 1790522552869
             }
           ]
         }
@@ -6604,14 +7468,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.14642553590238094,
               "lower": 0.14497,
               "upper": 0.14714,
               "startedAt": 1788146720286
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.13867122679948807,
+              "lower": 0.13446,
+              "upper": 0.13984,
+              "startedAt": 1790522762504
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.1354079251177609,
+              "lower": 0.13403,
+              "upper": 0.13762,
+              "startedAt": 1790522657972
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.1356872422620654,
+              "lower": 0.13458,
+              "upper": 0.13625,
+              "startedAt": 1790522553674
             }
           ]
         }
@@ -6868,14 +7768,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 2.3696432214229082e-07,
               "lower": 2.3049e-07,
               "upper": 2.5404e-07,
               "startedAt": 1788147632347
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 2.2723413993290968e-07,
+              "lower": 2.2511e-07,
+              "upper": 2.3012e-07,
+              "startedAt": 1790522763478
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 2.275582582565512e-07,
+              "lower": 2.2635e-07,
+              "upper": 2.331e-07,
+              "startedAt": 1790522658938
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 2.2345349960986483e-07,
+              "lower": 2.2179e-07,
+              "upper": 2.2461e-07,
+              "startedAt": 1790522554621
             }
           ]
         }
@@ -7132,14 +8068,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 1.7253516068194615e-07,
               "lower": 1.6898e-07,
               "upper": 1.7605e-07,
               "startedAt": 1788147633455
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 1.6765604541516897e-07,
+              "lower": 1.6706e-07,
+              "upper": 1.6884e-07,
+              "startedAt": 1790522764585
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 1.6847549438604352e-07,
+              "lower": 1.6699e-07,
+              "upper": 1.6946e-07,
+              "startedAt": 1790522660055
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 1.6406477120143041e-07,
+              "lower": 1.6294e-07,
+              "upper": 1.6439e-07,
+              "startedAt": 1790522555710
             }
           ]
         }
@@ -7396,14 +8368,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.00292153749614954,
               "lower": 0.002843,
               "upper": 0.0029445,
               "startedAt": 1788147634571
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.0028748674085363746,
+              "lower": 0.0028413,
+              "upper": 0.0029113,
+              "startedAt": 1790522765689
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.0028964789817109704,
+              "lower": 0.0028399,
+              "upper": 0.0029517,
+              "startedAt": 1790522661161
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.0028950341511517763,
+              "lower": 0.0028615,
+              "upper": 0.002929,
+              "startedAt": 1790522556819
             }
           ]
         }
@@ -7660,14 +8668,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.006889212992973626,
               "lower": 0.0068759,
               "upper": 0.0069233,
               "startedAt": 1788147645692
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.006795119494199753,
+              "lower": 0.0067674,
+              "upper": 0.0069146,
+              "startedAt": 1790522776663
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.006769941421225667,
+              "lower": 0.0067585,
+              "upper": 0.00685,
+              "startedAt": 1790522672179
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.00676683965139091,
+              "lower": 0.006731,
+              "upper": 0.0068295,
+              "startedAt": 1790522567740
             }
           ]
         }
@@ -7924,14 +8968,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.0351686361245811,
               "lower": 0.034681,
               "upper": 0.036428,
               "startedAt": 1788147649940
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.03329497016966343,
+              "lower": 0.032687,
+              "upper": 0.034405,
+              "startedAt": 1790522780815
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.03461469570174813,
+              "lower": 0.034247,
+              "upper": 0.035022,
+              "startedAt": 1790522676371
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.033485816325992346,
+              "lower": 0.033277,
+              "upper": 0.033805,
+              "startedAt": 1790522571900
             }
           ]
         }
@@ -8188,14 +9268,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.04525588592514396,
               "lower": 0.044997,
               "upper": 0.045521,
               "startedAt": 1788147651093
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.04350512707605958,
+              "lower": 0.043048,
+              "upper": 0.043978,
+              "startedAt": 1790522781943
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.04428265430033207,
+              "lower": 0.044126,
+              "upper": 0.044411,
+              "startedAt": 1790522677505
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.04275353904813528,
+              "lower": 0.042338,
+              "upper": 0.043157,
+              "startedAt": 1790522573010
             }
           ]
         }
@@ -8452,14 +9568,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 2.0974827251646967e-07,
               "lower": 2.0917e-07,
               "upper": 2.1027e-07,
               "startedAt": 1788147635675
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 2.0785274076955313e-07,
+              "lower": 2.0175e-07,
+              "upper": 2.1362e-07,
+              "startedAt": 1790522766790
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 2.0610477129920276e-07,
+              "lower": 2.0492e-07,
+              "upper": 2.0907e-07,
+              "startedAt": 1790522662259
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 2.0422451762448485e-07,
+              "lower": 2.037e-07,
+              "upper": 2.0538e-07,
+              "startedAt": 1790522557903
             }
           ]
         }
@@ -8716,14 +9868,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.002821934083476663,
               "lower": 0.002818,
               "upper": 0.0028345,
               "startedAt": 1788147646808
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.002831936115399003,
+              "lower": 0.0028208,
+              "upper": 0.0028383,
+              "startedAt": 1790522777759
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.0028221750631928447,
+              "lower": 0.0028088,
+              "upper": 0.0028287,
+              "startedAt": 1790522673286
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.0028232524171471597,
+              "lower": 0.0028191,
+              "upper": 0.0028425,
+              "startedAt": 1790522568771
             }
           ]
         }
@@ -8980,14 +10168,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.0005354403983801603,
               "lower": 0.00053391,
               "upper": 0.00053716,
               "startedAt": 1788147636692
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.0005236470140516758,
+              "lower": 0.00052056,
+              "upper": 0.00052709,
+              "startedAt": 1790522767813
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.0005272539099678397,
+              "lower": 0.00052422,
+              "upper": 0.00052988,
+              "startedAt": 1790522663273
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.0005220374325290323,
+              "lower": 0.00051825,
+              "upper": 0.00052388,
+              "startedAt": 1790522558913
             }
           ]
         }
@@ -9244,14 +10468,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.008162263664416969,
               "lower": 0.0080961,
               "upper": 0.0082876,
               "startedAt": 1788147637780
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.008109418442472816,
+              "lower": 0.0080207,
+              "upper": 0.0081925,
+              "startedAt": 1790522768895
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.008130433270707726,
+              "lower": 0.0080797,
+              "upper": 0.0082732,
+              "startedAt": 1790522664354
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.00820521218702197,
+              "lower": 0.0080438,
+              "upper": 0.0082785,
+              "startedAt": 1790522559995
             }
           ]
         }
@@ -9508,14 +10768,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.16496839909814298,
               "lower": 0.16331,
               "upper": 0.16579,
               "startedAt": 1788147652411
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.15087669482454658,
+              "lower": 0.14026,
+              "upper": 0.1608,
+              "startedAt": 1790522783122
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.16075851023197174,
+              "lower": 0.16023,
+              "upper": 0.16238,
+              "startedAt": 1790522678803
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.14037151215597987,
+              "lower": 0.13954,
+              "upper": 0.14131,
+              "startedAt": 1790522574193
             }
           ]
         }
@@ -9772,14 +11068,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.024056949885562062,
               "lower": 0.023917,
               "upper": 0.024128,
               "startedAt": 1788147654351
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.0223754090256989,
+              "lower": 0.021446,
+              "upper": 0.023504,
+              "startedAt": 1790522784800
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.023452462162822485,
+              "lower": 0.023364,
+              "upper": 0.023567,
+              "startedAt": 1790522680711
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.02139253681525588,
+              "lower": 0.021362,
+              "upper": 0.021873,
+              "startedAt": 1790522575896
             }
           ]
         }
@@ -10036,14 +11368,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.0321633864659816,
               "lower": 0.031948,
               "upper": 0.032372,
               "startedAt": 1788147655550
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.03129063732922077,
+              "lower": 0.030921,
+              "upper": 0.031613,
+              "startedAt": 1790522785852
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.031123798340559006,
+              "lower": 0.030958,
+              "upper": 0.031182,
+              "startedAt": 1790522681885
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.0312785217538476,
+              "lower": 0.030943,
+              "upper": 0.031531,
+              "startedAt": 1790522577005
             }
           ]
         }
@@ -10300,14 +11668,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.024021929129958153,
               "lower": 0.023985,
               "upper": 0.024104,
               "startedAt": 1788147656761
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.023384328931570053,
+              "lower": 0.023144,
+              "upper": 0.023552,
+              "startedAt": 1790522786993
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.023534344043582678,
+              "lower": 0.023319,
+              "upper": 0.023688,
+              "startedAt": 1790522683110
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.0237214551307261,
+              "lower": 0.023404,
+              "upper": 0.024007,
+              "startedAt": 1790522578156
             }
           ]
         }
@@ -10564,14 +11968,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.0005809984997742706,
               "lower": 0.00057956,
               "upper": 0.00058546,
               "startedAt": 1788147638820
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.0005696343723684549,
+              "lower": 0.00056499,
+              "upper": 0.00056999,
+              "startedAt": 1790522769925
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.0005812596322761641,
+              "lower": 0.00057475,
+              "upper": 0.00058406,
+              "startedAt": 1790522665383
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.000579948304221034,
+              "lower": 0.00057728,
+              "upper": 0.00059534,
+              "startedAt": 1790522561031
             }
           ]
         }
@@ -10828,14 +12268,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.0004904977024786851,
               "lower": 0.00048073,
               "upper": 0.00049877,
               "startedAt": 1788147639829
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.000466913673216882,
+              "lower": 0.00046629,
+              "upper": 0.00046753,
+              "startedAt": 1790522770910
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.0004808097146451473,
+              "lower": 0.00047602,
+              "upper": 0.00048541,
+              "startedAt": 1790522666380
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.00048604522916403687,
+              "lower": 0.00048411,
+              "upper": 0.00049293,
+              "startedAt": 1790522562042
             }
           ]
         }
@@ -11092,14 +12568,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.020095131127163768,
               "lower": 0.019931,
               "upper": 0.020554,
               "startedAt": 1788147640867
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.0194308259524405,
+              "lower": 0.019403,
+              "upper": 0.019485,
+              "startedAt": 1790522771926
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.019963167142122984,
+              "lower": 0.019873,
+              "upper": 0.020055,
+              "startedAt": 1790522667403
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.01960801426321268,
+              "lower": 0.019425,
+              "upper": 0.019801,
+              "startedAt": 1790522563075
             }
           ]
         }
@@ -11356,14 +12868,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.019907434470951557,
               "lower": 0.01983,
               "upper": 0.020074,
               "startedAt": 1788147642029
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.019407242070883512,
+              "lower": 0.019373,
+              "upper": 0.019518,
+              "startedAt": 1790522773060
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.019616657868027687,
+              "lower": 0.019567,
+              "upper": 0.01969,
+              "startedAt": 1790522668553
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.01931890659034252,
+              "lower": 0.019273,
+              "upper": 0.019468,
+              "startedAt": 1790522564257
             }
           ]
         }
@@ -11620,14 +13168,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.02080570301041007,
               "lower": 0.020768,
               "upper": 0.020966,
               "startedAt": 1788147643190
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.020622524432837963,
+              "lower": 0.020528,
+              "upper": 0.020735,
+              "startedAt": 1790522774204
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.020495601929724216,
+              "lower": 0.020278,
+              "upper": 0.020775,
+              "startedAt": 1790522669698
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.020722635556012392,
+              "lower": 0.020302,
+              "upper": 0.022484,
+              "startedAt": 1790522565398
             }
           ]
         }
@@ -11884,14 +13468,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.053797293221578,
               "lower": 0.05367,
               "upper": 0.054683,
               "startedAt": 1788147644361
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.053471202962100506,
+              "lower": 0.052787,
+              "upper": 0.053809,
+              "startedAt": 1790522775354
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.053161151707172394,
+              "lower": 0.052891,
+              "upper": 0.05331,
+              "startedAt": 1790522670855
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.051993572153151035,
+              "lower": 0.05172,
+              "upper": 0.052792,
+              "startedAt": 1790522566544
             }
           ]
         }
@@ -12148,14 +13768,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.007919821073301136,
               "lower": 0.0079017,
               "upper": 0.0079454,
               "startedAt": 1788147647835
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.007875967305153608,
+              "lower": 0.0078451,
+              "upper": 0.0079019,
+              "startedAt": 1790522778762
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.007917650043964386,
+              "lower": 0.0079113,
+              "upper": 0.007926,
+              "startedAt": 1790522674310
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.007944960612803698,
+              "lower": 0.0079191,
+              "upper": 0.0079876,
+              "startedAt": 1790522569820
             }
           ]
         }
@@ -12412,14 +14068,50 @@
               "shortHash": "26d2d85c",
               "date": 1785808278000,
               "subject": "clush: ignore '#' comments in --hostfile",
-              "tags": [
-                "master"
-              ],
+              "tags": [],
               "url": "https://github.com/clustershell/clustershell/commit/26d2d85c872b21ae0a49f0ee651cc1c1868d9f87",
               "value": 0.009264834341593087,
               "lower": 0.009184,
               "upper": 0.0095765,
               "startedAt": 1788147648881
+            },
+            {
+              "hash": "ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "shortHash": "ea06f05c",
+              "date": 1785763418000,
+              "subject": "EngineClient: speed up write buffer drain",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/ea06f05ce2ab5755ea48902bc45792436e01f73c",
+              "value": 0.00924947508610785,
+              "lower": 0.0091019,
+              "upper": 0.0094118,
+              "startedAt": 1790522779774
+            },
+            {
+              "hash": "049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "shortHash": "049c739b",
+              "date": 1785931167000,
+              "subject": "RangeSetND: avoid quadratic padding scan in iter_padding()",
+              "tags": [],
+              "url": "https://github.com/clustershell/clustershell/commit/049c739bf249b7f5bd9bbb0cc5bcd8fdde211589",
+              "value": 0.009088465943932533,
+              "lower": 0.00907,
+              "upper": 0.0091219,
+              "startedAt": 1790522675336
+            },
+            {
+              "hash": "f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "shortHash": "f3f5b159",
+              "date": 1785847754000,
+              "subject": "MsgTree: add MsgTreeElem.text()",
+              "tags": [
+                "master"
+              ],
+              "url": "https://github.com/clustershell/clustershell/commit/f3f5b1594be3350b0c29bcc6786cff86abba19d7",
+              "value": 0.009234781842678785,
+              "lower": 0.0091611,
+              "upper": 0.0093733,
+              "startedAt": 1790522570858
             }
           ]
         }
