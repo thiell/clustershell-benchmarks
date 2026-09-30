@@ -15,7 +15,6 @@
     changeValue: document.getElementById('change-value'),
     changeNote: document.getElementById('change-note'),
     latestResults: document.getElementById('latest-results'),
-    regressionList: document.getElementById('regression-list'),
     error: document.getElementById('error-state')
   };
 
@@ -36,10 +35,6 @@
 
   function formatDate(timestamp) {
     return new Intl.DateTimeFormat('en', { year: 'numeric', month: 'short' }).format(new Date(timestamp));
-  }
-
-  function formatIsoDate(timestamp) {
-    return new Date(timestamp).toISOString().slice(0, 10);
   }
 
   function chartXPositions(points, left, right, requestedGap) {
@@ -67,6 +62,11 @@
     return ((current / previous) - 1) * 100;
   }
 
+  function setCollapsed(section, collapsed) {
+    section.classList.toggle('collapsed', collapsed);
+    section.querySelector('.group-toggle').setAttribute('aria-expanded', String(!collapsed));
+  }
+
   function renderNavigation() {
     const groups = new Map();
     state.data.benchmarks.forEach(benchmark => {
@@ -78,7 +78,12 @@
       const section = document.createElement('section');
       section.className = 'benchmark-group';
       const heading = document.createElement('h2');
-      heading.textContent = group;
+      const toggle = document.createElement('button');
+      toggle.type = 'button';
+      toggle.className = 'group-toggle';
+      toggle.textContent = `${group} (${benchmarks.length})`;
+      toggle.addEventListener('click', () => setCollapsed(section, !section.classList.contains('collapsed')));
+      heading.appendChild(toggle);
       section.appendChild(heading);
       benchmarks.forEach(benchmark => {
         const button = document.createElement('button');
@@ -86,13 +91,11 @@
         button.className = 'benchmark-button';
         button.dataset.benchmark = benchmark.id;
         button.textContent = benchmark.operation;
-        button.addEventListener('click', () => {
-          showView('benchmarks');
-          selectBenchmark(benchmark.id);
-        });
+        button.addEventListener('click', () => selectBenchmark(benchmark.id));
         section.appendChild(button);
       });
       elements.list.appendChild(section);
+      setCollapsed(section, true);
     });
   }
 
@@ -101,6 +104,7 @@
     document.querySelectorAll('.benchmark-button').forEach(button => {
       button.classList.toggle('active', button.dataset.benchmark === benchmarkId);
       button.setAttribute('aria-pressed', String(button.dataset.benchmark === benchmarkId));
+      if (button.dataset.benchmark === benchmarkId) setCollapsed(button.closest('.benchmark-group'), false);
     });
     elements.title.textContent = state.benchmark.label;
     elements.subtitle.textContent = 'ClusterShell performance benchmark';
@@ -113,8 +117,7 @@
       option.dataset.machine = machine ? `${machine.name} · Python ${machine.python}` : '';
       elements.series.appendChild(option);
     });
-    const preferred = state.benchmark.series.find(series => Object.values(series.parameters).includes('100000'));
-    state.series = preferred || state.benchmark.series[0];
+    state.series = state.benchmark.series[0];
     elements.series.value = state.series.id;
     updateEnvironment();
     renderChart();
@@ -156,7 +159,8 @@
     svgElement('line', { x1: margin.left, x2: margin.left, y1: margin.top, y2: height - margin.bottom, class: 'chart-axis' });
     svgElement('line', { x1: margin.left, x2: width - margin.right, y1: height - margin.bottom, y2: height - margin.bottom, class: 'chart-axis' });
 
-    const tickIndexes = width < 520 ? [0, points.length - 1] : points.map((_, index) => index).filter((_, index) => index % Math.max(1, Math.ceil(points.length / 5)) === 0);
+    const step = Math.max(1, Math.ceil(points.length / 5));
+    const tickIndexes = width < 520 ? [0, points.length - 1] : points.map((_, index) => index).filter(index => index === points.length - 1 || (index % step === 0 && points.length - 1 - index >= step));
     [...new Set(tickIndexes)].forEach(index => {
       const point = points[index];
       svgElement('text', { x: x(index), y: height - 18, 'text-anchor': index === 0 ? 'start' : index === points.length - 1 ? 'end' : 'middle' }, formatDate(point.date));
@@ -243,76 +247,11 @@
     });
   }
 
-  function collectRegressions() {
-    const regressions = [];
-    state.data.benchmarks.forEach(benchmark => {
-      benchmark.series.forEach(series => {
-        series.points.forEach((point, index) => {
-          if (index === 0) return;
-          const previous = series.points[index - 1];
-          const change = formatChange(point.value, previous.value);
-          if (change >= 10) regressions.push({ benchmark, series, previous, point, change });
-        });
-      });
-    });
-    return regressions.sort((left, right) => right.change - left.change).slice(0, 25);
-  }
-
-  function renderRegressions() {
-    const regressions = collectRegressions();
-    elements.regressionList.replaceChildren();
-    if (!regressions.length) {
-      const empty = document.createElement('div');
-      empty.className = 'empty-regressions';
-      empty.textContent = 'No regression above the 10% threshold.';
-      elements.regressionList.appendChild(empty);
-      return;
-    }
-    regressions.forEach(regression => {
-      const row = document.createElement('div');
-      row.className = 'regression-row';
-      const name = document.createElement('span');
-      name.className = 'regression-name';
-      name.textContent = regression.benchmark.label;
-      const dataset = document.createElement('small');
-      dataset.textContent = regression.series.parameterLabel;
-      name.appendChild(dataset);
-      const change = document.createElement('span');
-      change.className = 'regression-change';
-      change.textContent = `+${regression.change.toFixed(1)}%`;
-      const changedAt = document.createElement('a');
-      changedAt.className = 'regression-changed';
-      changedAt.href = `${state.data.project.repositoryUrl}/compare/${regression.previous.hash}...${regression.point.hash}`;
-      changedAt.target = '_blank';
-      changedAt.rel = 'noopener';
-      changedAt.append(`${formatIsoDate(regression.point.date)} `);
-      const commitRange = document.createElement('code');
-      commitRange.textContent = `${regression.previous.shortHash}...${regression.point.shortHash}`;
-      changedAt.appendChild(commitRange);
-      row.append(name, change, changedAt);
-      elements.regressionList.appendChild(row);
-    });
-  }
-
-  function showView(view) {
-    document.getElementById('benchmarks-view').hidden = view !== 'benchmarks';
-    document.getElementById('regressions-view').hidden = view !== 'regressions';
-    document.querySelectorAll('.tab').forEach(tab => {
-      const active = tab.dataset.view === view;
-      tab.classList.toggle('active', active);
-      tab.setAttribute('aria-selected', String(active));
-    });
-    if (view === 'regressions') renderRegressions();
-  }
-
   elements.series.addEventListener('change', () => {
     state.series = state.benchmark.series.find(series => series.id === elements.series.value);
     updateEnvironment();
     renderChart();
     renderSummary();
-  });
-  document.querySelectorAll('.tab').forEach(tab => {
-    tab.addEventListener('click', () => showView(tab.dataset.view));
   });
   new ResizeObserver(renderChart).observe(elements.chartFrame);
 
@@ -327,7 +266,6 @@
       elements.freshness.textContent = data.generatedAt ? `Updated ${new Date(data.generatedAt).toLocaleDateString()}` : 'Results available';
       renderNavigation();
       selectBenchmark(data.benchmarks[0].id);
-      renderRegressions();
     })
     .catch(error => {
       console.error(error);

@@ -14,11 +14,10 @@
         <span class="brand-mark" aria-hidden="true">CS</span>
         <span><strong>ClusterShell</strong><small>Performance dashboard</small></span>
       </a>
-      <nav class="tabs" role="tablist" aria-label="Dashboard views">
-        <button class="tab active" type="button" role="tab" aria-selected="true" data-view="benchmarks">Benchmarks</button>
-        <button class="tab" type="button" role="tab" aria-selected="false" data-view="regressions">Regressions</button>
+      <nav class="asv-links" aria-label="Standard ASV site">
+        <a href="asv/#/regressions">Regressions</a>
+        <a href="asv/">Standard ASV view</a>
       </nav>
-      <a class="asv-link" href="asv/">Standard ASV view</a>
       <span class="freshness" id="freshness">Loading results…</span>
     </header>
 
@@ -70,18 +69,9 @@
           <p class="runner-note">Results from an automated runner. Small variations should be treated as indicative.</p>
         </section>
 
-        <section id="regressions-view" hidden>
-          <h1>Regressions detected</h1>
-          <p>Consecutive measurements that are at least 10% slower.</p>
-          <div class="regression-table panel">
-            <div class="regression-header"><span>Benchmark</span><span>Change</span><span>Changed At</span></div>
-            <div id="regression-list"></div>
-          </div>
-        </section>
-
         <div class="error-state" id="error-state" hidden>
           <strong>Performance data is unavailable.</strong>
-          <span>The ASV view remains available from the link above.</span>
+          <span>The ASV view remains available from the links above.</span>
         </div>
       </main>
     </div>
