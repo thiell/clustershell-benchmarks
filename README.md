@@ -1,13 +1,13 @@
 # ClusterShell benchmark results
 
-Benchmark results for [ClusterShell](https://github.com/clustershell/clustershell),
-produced by the asv suite in the main repository (`benchmarks/`).
+Demo of the benchmark suite and dashboard proposed in
+[clustershell#709](https://github.com/clustershell/clustershell/pull/709).
 
-Browse the charts: https://thiell.github.io/clustershell-benchmarks/
+Browse the charts: https://thiell.github.io/clustershell-benchmarks/ (dashboard,
+with the standard ASV site under `asv/`).
 
-- `results/` holds the raw asv results (JSON, per machine).
-- The `gh-pages` branch holds the generated HTML site (`asv publish`).
-
-To add results: run `asv run` from `benchmarks/` in the main repository, copy
-the new files from `benchmarks/.asv/results/` here, regenerate the site with
-`asv publish`, and update the `gh-pages` branch.
+- `results/` holds the raw asv results (JSON). They were measured on a
+  workstation in one evening: two passes over all revisions in opposite
+  order, with their samples pooled.
+- The `gh-pages` branch holds the dashboard at its root and the ASV site
+  under `asv/`, built from a clean clone of the upstream repository.

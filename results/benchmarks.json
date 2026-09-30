@@ -15,7 +15,7 @@
         "warmup_time": -1
     },
     "bench_engine.Engine.time_stdin_broadcast": {
-        "code": "class Engine:\n    def time_stdin_broadcast(self):\n        # clush < file: every chunk is written to all 8 processes\n        worker = TASK.shell(\"cat > /dev/null\", nodes=\"n[1-8]\", tree=False,\n                            stdin=True)\n        for chunk in STDIN_CHUNKS:\n            worker.write(chunk)\n        worker.set_write_eof()\n        TASK.run()",
+        "code": "class Engine:\n    def time_stdin_broadcast(self):\n        # write buffer drain to 8 processes; clush < file sends chunk by chunk\n        worker = TASK.shell(\"cat > /dev/null\", nodes=\"n[1-8]\", tree=False,\n                            stdin=True)\n        for chunk in STDIN_CHUNKS:\n            worker.write(chunk)\n        worker.set_write_eof()\n        TASK.run()",
         "min_run_count": 2,
         "name": "bench_engine.Engine.time_stdin_broadcast",
         "number": 0,
@@ -26,7 +26,7 @@
         "sample_time": 0.01,
         "type": "time",
         "unit": "seconds",
-        "version": "fe7c8d37a53de8b211a8679b8302869dde96ad77f9dcb2680496c309e9fcdf13",
+        "version": "24b35132f0cdd7c09a6d861f56ecc30467f751c059cac1b8dba64dd185efe084",
         "warmup_time": -1
     },
     "bench_imports.Imports.timeraw_import_nodeset": {
