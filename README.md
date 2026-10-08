@@ -6,8 +6,10 @@ Demo of the benchmark suite and dashboard proposed in
 Browse the charts: https://thiell.github.io/clustershell-benchmarks/ (dashboard,
 with the standard ASV site under `asv/`).
 
-- `results/` holds the raw asv results (JSON). They were measured on a
-  workstation in one evening: two passes over all revisions in opposite
-  order, with their samples pooled.
+These pages are the output of a dry run of the #709 workflow on a
+GitHub-hosted runner (2026-10-08): every release since v1.8 and ten master
+commits up to 3324b25, measured in one job.
+
+- `results/` holds the raw asv results (JSON).
 - The `gh-pages` branch holds the dashboard at its root and the ASV site
-  under `asv/`, built from a clean clone of the upstream repository.
+  under `asv/`.
